@@ -1,0 +1,20 @@
+{"id": "P20_GS_01", "category": "gpio_set", "query": "Turn GPIO 17 on.", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "P20_GS_02", "category": "gpio_set", "query": "Set GPIO 5 to false.", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": false}}
+{"id": "P20_GS_03", "category": "gpio_set", "query": "Drive BCM22 high.", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": true}}
+{"id": "P20_GS_04", "category": "gpio_set", "query": "Turn GPIO 10 off.", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": false}}
+{"id": "P20_GS_05", "category": "gpio_set", "query": "Set pin 27 high.", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": true}}
+{"id": "P20_GS_06", "category": "gpio_set", "query": "Disable GPIO 4.", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": false}}
+{"id": "P20_GR_01", "category": "gpio_read", "query": "Read GPIO 17.", "expected_tool": "read_gpio", "expected_args": {"pin": 17}}
+{"id": "P20_GR_02", "category": "gpio_read", "query": "Check GPIO 5 status.", "expected_tool": "read_gpio", "expected_args": {"pin": 5}}
+{"id": "P20_GR_03", "category": "gpio_read", "query": "What is the state of BCM22?", "expected_tool": "read_gpio", "expected_args": {"pin": 22}}
+{"id": "P20_GR_04", "category": "gpio_read", "query": "Read pin 10.", "expected_tool": "read_gpio", "expected_args": {"pin": 10}}
+{"id": "P20_GR_05", "category": "gpio_read", "query": "Is GPIO 27 high?", "expected_tool": "read_gpio", "expected_args": {"pin": 27}}
+{"id": "P20_GR_06", "category": "gpio_read", "query": "Check GPIO 4.", "expected_tool": "read_gpio", "expected_args": {"pin": 4}}
+{"id": "P20_O_01", "category": "system", "query": "Check system status.", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "P20_O_02", "category": "temperature", "query": "What is the CPU temperature?", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "P20_O_03", "category": "network", "query": "Show network status.", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "P20_O_04", "category": "disk", "query": "Show disk usage.", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "P20_O_05", "category": "i2c", "query": "Scan I2C bus 1.", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "P20_O_06", "category": "spi", "query": "Show SPI status.", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "P20_O_07", "category": "usb", "query": "List USB devices.", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "P20_O_08", "category": "service", "query": "Restart ssh service.", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}

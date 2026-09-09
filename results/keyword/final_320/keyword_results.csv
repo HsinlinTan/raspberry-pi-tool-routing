@@ -1,0 +1,321 @@
+id,category,query,expected_tool,tool,expected_args,args,routing_exact,expected_policy,policy_action,task_exact,route_reason
+G_R_00,gpio_read_exhaustive,Read GPIO 0,read_gpio,read_gpio,"{""pin"": 0}","{""pin"": 0}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_00,gpio_set_exhaustive,Set GPIO 0 high,set_gpio,set_gpio,"{""pin"": 0, ""state"": true}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,explicit GPIO write
+G_L_00,gpio_set_exhaustive,Set GPIO 0 low,set_gpio,set_gpio,"{""pin"": 0, ""state"": false}","{""pin"": 0, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_01,gpio_read_exhaustive,Read GPIO 1,read_gpio,read_gpio,"{""pin"": 1}","{""pin"": 1}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_01,gpio_set_exhaustive,Set GPIO 1 high,set_gpio,set_gpio,"{""pin"": 1, ""state"": true}","{""pin"": 1, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_01,gpio_set_exhaustive,Set GPIO 1 low,set_gpio,set_gpio,"{""pin"": 1, ""state"": false}","{""pin"": 1, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_02,gpio_read_exhaustive,Read GPIO 2,read_gpio,read_gpio,"{""pin"": 2}","{""pin"": 2}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_02,gpio_set_exhaustive,Set GPIO 2 high,set_gpio,set_gpio,"{""pin"": 2, ""state"": true}","{""pin"": 2, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_02,gpio_set_exhaustive,Set GPIO 2 low,set_gpio,set_gpio,"{""pin"": 2, ""state"": false}","{""pin"": 2, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_03,gpio_read_exhaustive,Read GPIO 3,read_gpio,read_gpio,"{""pin"": 3}","{""pin"": 3}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_03,gpio_set_exhaustive,Set GPIO 3 high,set_gpio,set_gpio,"{""pin"": 3, ""state"": true}","{""pin"": 3, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_03,gpio_set_exhaustive,Set GPIO 3 low,set_gpio,set_gpio,"{""pin"": 3, ""state"": false}","{""pin"": 3, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_04,gpio_read_exhaustive,Read GPIO 4,read_gpio,read_gpio,"{""pin"": 4}","{""pin"": 4}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_04,gpio_set_exhaustive,Set GPIO 4 high,set_gpio,set_gpio,"{""pin"": 4, ""state"": true}","{""pin"": 4, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_04,gpio_set_exhaustive,Set GPIO 4 low,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 4, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_05,gpio_read_exhaustive,Read GPIO 5,read_gpio,read_gpio,"{""pin"": 5}","{""pin"": 5}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_05,gpio_set_exhaustive,Set GPIO 5 high,set_gpio,set_gpio,"{""pin"": 5, ""state"": true}","{""pin"": 5, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_05,gpio_set_exhaustive,Set GPIO 5 low,set_gpio,set_gpio,"{""pin"": 5, ""state"": false}","{""pin"": 5, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_06,gpio_read_exhaustive,Read GPIO 6,read_gpio,read_gpio,"{""pin"": 6}","{""pin"": 6}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_06,gpio_set_exhaustive,Set GPIO 6 high,set_gpio,set_gpio,"{""pin"": 6, ""state"": true}","{""pin"": 6, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_06,gpio_set_exhaustive,Set GPIO 6 low,set_gpio,set_gpio,"{""pin"": 6, ""state"": false}","{""pin"": 6, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_07,gpio_read_exhaustive,Read GPIO 7,read_gpio,read_gpio,"{""pin"": 7}","{""pin"": 7}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_07,gpio_set_exhaustive,Set GPIO 7 high,set_gpio,set_gpio,"{""pin"": 7, ""state"": true}","{""pin"": 7, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_07,gpio_set_exhaustive,Set GPIO 7 low,set_gpio,set_gpio,"{""pin"": 7, ""state"": false}","{""pin"": 7, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_08,gpio_read_exhaustive,Read GPIO 8,read_gpio,read_gpio,"{""pin"": 8}","{""pin"": 8}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_08,gpio_set_exhaustive,Set GPIO 8 high,set_gpio,set_gpio,"{""pin"": 8, ""state"": true}","{""pin"": 8, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_08,gpio_set_exhaustive,Set GPIO 8 low,set_gpio,set_gpio,"{""pin"": 8, ""state"": false}","{""pin"": 8, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_09,gpio_read_exhaustive,Read GPIO 9,read_gpio,read_gpio,"{""pin"": 9}","{""pin"": 9}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_09,gpio_set_exhaustive,Set GPIO 9 high,set_gpio,set_gpio,"{""pin"": 9, ""state"": true}","{""pin"": 9, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_09,gpio_set_exhaustive,Set GPIO 9 low,set_gpio,set_gpio,"{""pin"": 9, ""state"": false}","{""pin"": 9, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_10,gpio_read_exhaustive,Read GPIO 10,read_gpio,read_gpio,"{""pin"": 10}","{""pin"": 10}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_10,gpio_set_exhaustive,Set GPIO 10 high,set_gpio,set_gpio,"{""pin"": 10, ""state"": true}","{""pin"": 10, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_10,gpio_set_exhaustive,Set GPIO 10 low,set_gpio,set_gpio,"{""pin"": 10, ""state"": false}","{""pin"": 10, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_11,gpio_read_exhaustive,Read GPIO 11,read_gpio,read_gpio,"{""pin"": 11}","{""pin"": 11}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_11,gpio_set_exhaustive,Set GPIO 11 high,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_11,gpio_set_exhaustive,Set GPIO 11 low,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_12,gpio_read_exhaustive,Read GPIO 12,read_gpio,read_gpio,"{""pin"": 12}","{""pin"": 12}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_12,gpio_set_exhaustive,Set GPIO 12 high,set_gpio,set_gpio,"{""pin"": 12, ""state"": true}","{""pin"": 12, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_12,gpio_set_exhaustive,Set GPIO 12 low,set_gpio,set_gpio,"{""pin"": 12, ""state"": false}","{""pin"": 12, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_13,gpio_read_exhaustive,Read GPIO 13,read_gpio,read_gpio,"{""pin"": 13}","{""pin"": 13}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_13,gpio_set_exhaustive,Set GPIO 13 high,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_13,gpio_set_exhaustive,Set GPIO 13 low,set_gpio,set_gpio,"{""pin"": 13, ""state"": false}","{""pin"": 13, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_14,gpio_read_exhaustive,Read GPIO 14,read_gpio,read_gpio,"{""pin"": 14}","{""pin"": 14}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_14,gpio_set_exhaustive,Set GPIO 14 high,set_gpio,set_gpio,"{""pin"": 14, ""state"": true}","{""pin"": 14, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_14,gpio_set_exhaustive,Set GPIO 14 low,set_gpio,set_gpio,"{""pin"": 14, ""state"": false}","{""pin"": 14, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_15,gpio_read_exhaustive,Read GPIO 15,read_gpio,read_gpio,"{""pin"": 15}","{""pin"": 15}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_15,gpio_set_exhaustive,Set GPIO 15 high,set_gpio,set_gpio,"{""pin"": 15, ""state"": true}","{""pin"": 15, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_15,gpio_set_exhaustive,Set GPIO 15 low,set_gpio,set_gpio,"{""pin"": 15, ""state"": false}","{""pin"": 15, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_16,gpio_read_exhaustive,Read GPIO 16,read_gpio,read_gpio,"{""pin"": 16}","{""pin"": 16}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_16,gpio_set_exhaustive,Set GPIO 16 high,set_gpio,set_gpio,"{""pin"": 16, ""state"": true}","{""pin"": 16, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_16,gpio_set_exhaustive,Set GPIO 16 low,set_gpio,set_gpio,"{""pin"": 16, ""state"": false}","{""pin"": 16, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_17,gpio_read_exhaustive,Read GPIO 17,read_gpio,read_gpio,"{""pin"": 17}","{""pin"": 17}",True,ALLOW,ALLOW,True,explicit GPIO read
+G_H_17,gpio_set_exhaustive,Set GPIO 17 high,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_L_17,gpio_set_exhaustive,Set GPIO 17 low,set_gpio,set_gpio,"{""pin"": 17, ""state"": false}","{""pin"": 17, ""state"": false}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_R_18,gpio_read_exhaustive,Read GPIO 18,read_gpio,read_gpio,"{""pin"": 18}","{""pin"": 18}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_18,gpio_set_exhaustive,Set GPIO 18 high,set_gpio,set_gpio,"{""pin"": 18, ""state"": true}","{""pin"": 18, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_18,gpio_set_exhaustive,Set GPIO 18 low,set_gpio,set_gpio,"{""pin"": 18, ""state"": false}","{""pin"": 18, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_19,gpio_read_exhaustive,Read GPIO 19,read_gpio,read_gpio,"{""pin"": 19}","{""pin"": 19}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_19,gpio_set_exhaustive,Set GPIO 19 high,set_gpio,set_gpio,"{""pin"": 19, ""state"": true}","{""pin"": 19, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_19,gpio_set_exhaustive,Set GPIO 19 low,set_gpio,set_gpio,"{""pin"": 19, ""state"": false}","{""pin"": 19, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_20,gpio_read_exhaustive,Read GPIO 20,read_gpio,read_gpio,"{""pin"": 20}","{""pin"": 20}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_20,gpio_set_exhaustive,Set GPIO 20 high,set_gpio,set_gpio,"{""pin"": 20, ""state"": true}","{""pin"": 20, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_20,gpio_set_exhaustive,Set GPIO 20 low,set_gpio,set_gpio,"{""pin"": 20, ""state"": false}","{""pin"": 20, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_21,gpio_read_exhaustive,Read GPIO 21,read_gpio,read_gpio,"{""pin"": 21}","{""pin"": 21}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_21,gpio_set_exhaustive,Set GPIO 21 high,set_gpio,set_gpio,"{""pin"": 21, ""state"": true}","{""pin"": 21, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_21,gpio_set_exhaustive,Set GPIO 21 low,set_gpio,set_gpio,"{""pin"": 21, ""state"": false}","{""pin"": 21, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_22,gpio_read_exhaustive,Read GPIO 22,read_gpio,read_gpio,"{""pin"": 22}","{""pin"": 22}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_22,gpio_set_exhaustive,Set GPIO 22 high,set_gpio,set_gpio,"{""pin"": 22, ""state"": true}","{""pin"": 22, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_22,gpio_set_exhaustive,Set GPIO 22 low,set_gpio,set_gpio,"{""pin"": 22, ""state"": false}","{""pin"": 22, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_23,gpio_read_exhaustive,Read GPIO 23,read_gpio,read_gpio,"{""pin"": 23}","{""pin"": 23}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_23,gpio_set_exhaustive,Set GPIO 23 high,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_23,gpio_set_exhaustive,Set GPIO 23 low,set_gpio,set_gpio,"{""pin"": 23, ""state"": false}","{""pin"": 23, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_24,gpio_read_exhaustive,Read GPIO 24,read_gpio,read_gpio,"{""pin"": 24}","{""pin"": 24}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_24,gpio_set_exhaustive,Set GPIO 24 high,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_24,gpio_set_exhaustive,Set GPIO 24 low,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 24, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_25,gpio_read_exhaustive,Read GPIO 25,read_gpio,read_gpio,"{""pin"": 25}","{""pin"": 25}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_25,gpio_set_exhaustive,Set GPIO 25 high,set_gpio,set_gpio,"{""pin"": 25, ""state"": true}","{""pin"": 25, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_25,gpio_set_exhaustive,Set GPIO 25 low,set_gpio,set_gpio,"{""pin"": 25, ""state"": false}","{""pin"": 25, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_26,gpio_read_exhaustive,Read GPIO 26,read_gpio,read_gpio,"{""pin"": 26}","{""pin"": 26}",True,REJECT,REJECT,True,explicit GPIO read
+G_H_26,gpio_set_exhaustive,Set GPIO 26 high,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_26,gpio_set_exhaustive,Set GPIO 26 low,set_gpio,set_gpio,"{""pin"": 26, ""state"": false}","{""pin"": 26, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_R_27,gpio_read_exhaustive,Read GPIO 27,read_gpio,read_gpio,"{""pin"": 27}","{""pin"": 27}",True,ALLOW,ALLOW,True,explicit GPIO read
+G_H_27,gpio_set_exhaustive,Set GPIO 27 high,set_gpio,set_gpio,"{""pin"": 27, ""state"": true}","{""pin"": 27, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_L_27,gpio_set_exhaustive,Set GPIO 27 low,set_gpio,set_gpio,"{""pin"": 27, ""state"": false}","{""pin"": 27, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+F_001,function_coverage,Scan I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,I2C scan
+F_002,function_coverage,Look for devices on I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,I2C scan
+F_003,function_coverage,Detect devices on I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,I2C scan
+F_004,function_coverage,Check I2C device 0x3c on bus 1,check_i2c_device,scan_i2c_bus,"{""address"": ""0x3c"", ""bus"": 1}","{""bus"": 1}",False,ALLOW,ALLOW,False,generic I2C bus read
+F_005,function_coverage,Is there an I2C device at 0x68 on bus 1?,check_i2c_device,check_i2c_device,"{""address"": ""0x68"", ""bus"": 1}","{""address"": ""0x68"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C address check
+F_006,function_coverage,Check address 0x3c on I2C bus 1,check_i2c_device,check_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C address check
+F_007,function_coverage,Dump I2C device 0x3c on bus 1,dump_i2c_device,dump_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C dump
+F_008,function_coverage,Read the register dump from I2C 0x68 on bus 1,dump_i2c_device,dump_i2c_device,"{""address"": ""0x68"", ""bus"": 1}","{""address"": ""0x68"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C dump
+F_009,function_coverage,Inspect the I2C register map at 0x3c on bus 1,dump_i2c_device,dump_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C dump
+F_010,function_coverage,Check I2C status,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,I2C status/list
+F_011,function_coverage,Is I2C enabled?,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,I2C status/list
+F_012,function_coverage,Show I2C availability,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,I2C status/list
+F_013,function_coverage,Check SPI status,get_spi_status,get_spi_status,{},{},True,ALLOW,ALLOW,True,SPI status
+F_014,function_coverage,Is SPI enabled?,get_spi_status,get_spi_status,{},{},True,ALLOW,ALLOW,True,SPI status
+F_015,function_coverage,Show SPI availability,get_spi_status,list_spi_devices,{},{},False,ALLOW,ALLOW,False,SPI enumeration
+F_016,function_coverage,List SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,SPI enumeration
+F_017,function_coverage,Show SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,SPI enumeration
+F_018,function_coverage,Enumerate SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,SPI enumeration
+F_019,function_coverage,Check UART status,get_uart_status,get_uart_status,{},{},True,ALLOW,ALLOW,True,UART status
+F_020,function_coverage,Is UART enabled?,get_uart_status,get_uart_status,{},{},True,ALLOW,ALLOW,True,UART status
+F_021,function_coverage,Show serial interface status,get_uart_status,get_uart_status,{},{},True,ALLOW,ALLOW,True,UART status
+F_022,function_coverage,List serial ports,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,serial port enumeration
+F_023,function_coverage,Show UART ports,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,serial port enumeration
+F_024,function_coverage,Enumerate serial devices,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,serial port enumeration
+F_025,function_coverage,List USB devices,list_usb_devices,list_usb_devices,{},{},True,ALLOW,ALLOW,True,USB enumeration
+F_026,function_coverage,Show connected USB devices,list_usb_devices,list_usb_devices,{},{},True,ALLOW,ALLOW,True,USB enumeration
+F_027,function_coverage,Enumerate USB devices,list_usb_devices,list_usb_devices,{},{},True,ALLOW,ALLOW,True,USB enumeration
+F_028,function_coverage,Show USB topology,get_usb_topology,get_usb_topology,{},{},True,ALLOW,ALLOW,True,USB topology
+F_029,function_coverage,Show the USB device tree,get_usb_topology,get_usb_topology,{},{},True,ALLOW,ALLOW,True,USB topology
+F_030,function_coverage,Display USB hierarchy,get_usb_topology,get_usb_topology,{},{},True,ALLOW,ALLOW,True,USB topology
+F_031,function_coverage,Check HDMI-A-1 status,get_hdmi_status,get_hdmi_status,"{""connector"": ""HDMI-A-1""}","{""connector"": ""HDMI-A-1""}",True,ALLOW,ALLOW,True,HDMI connector status
+F_032,function_coverage,Is HDMI-A-2 connected?,get_hdmi_status,get_hdmi_status,"{""connector"": ""HDMI-A-2""}","{""connector"": ""HDMI-A-2""}",True,REJECT,REJECT,True,HDMI connector status
+F_033,function_coverage,Show HDMI-A-1 connector status,get_hdmi_status,get_hdmi_status,"{""connector"": ""HDMI-A-1""}","{""connector"": ""HDMI-A-1""}",True,ALLOW,ALLOW,True,HDMI connector status
+F_034,function_coverage,List displays,list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,display enumeration
+F_035,function_coverage,Show connected displays,list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,display enumeration
+F_036,function_coverage,Enumerate display outputs,list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,display enumeration
+F_037,function_coverage,List cameras,list_cameras,list_cameras,{},{},True,ALLOW,ALLOW,True,camera enumeration
+F_038,function_coverage,Show available cameras,list_cameras,list_cameras,{},{},True,ALLOW,ALLOW,True,camera enumeration
+F_039,function_coverage,Enumerate CSI cameras,list_cameras,list_cameras,{},{},True,ALLOW,ALLOW,True,camera enumeration
+F_040,function_coverage,Check camera status,get_camera_status,get_camera_status,{},{},True,ALLOW,ALLOW,True,camera status
+F_041,function_coverage,Is a camera available?,get_camera_status,get_camera_status,{},{},True,ALLOW,ALLOW,True,camera status
+F_042,function_coverage,Show CSI camera status,get_camera_status,list_cameras,{},{},False,ALLOW,ALLOW,False,camera enumeration
+F_043,function_coverage,What is the CPU temperature?,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,CPU temperature
+F_044,function_coverage,Show processor temperature,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,CPU temperature
+F_045,function_coverage,How hot is the Raspberry Pi CPU?,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,CPU temperature
+F_046,function_coverage,Check throttling status,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,throttling status
+F_047,function_coverage,Is the Raspberry Pi throttled?,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,throttling status
+F_048,function_coverage,Check undervoltage and thermal throttling,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,throttling status
+F_049,function_coverage,CPU frequency,get_cpu_frequency,get_cpu_frequency,{},{},True,ALLOW,ALLOW,True,CPU frequency
+F_050,function_coverage,What clock speed is the CPU running at?,get_cpu_frequency,get_cpu_frequency,{},{},True,ALLOW,ALLOW,True,CPU frequency
+F_051,function_coverage,Read the current ARM CPU frequency,get_cpu_frequency,get_cpu_frequency,{},{},True,ALLOW,ALLOW,True,CPU frequency
+F_052,function_coverage,Network status,get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,network status
+F_053,function_coverage,Show Wi-Fi and Ethernet status,get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,network status
+F_054,function_coverage,Is the Pi online?,get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,network status
+F_055,function_coverage,Show system status,get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,system status
+F_056,function_coverage,"Show CPU load, memory and uptime",get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,system status
+F_057,function_coverage,Give me general system health,get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,system status
+F_058,function_coverage,Show disk usage,get_disk_usage,get_disk_usage,{},{},True,ALLOW,ALLOW,True,disk usage
+F_059,function_coverage,How much disk space is free?,get_disk_usage,get_disk_usage,{},{},True,ALLOW,ALLOW,True,disk usage
+F_060,function_coverage,Check root filesystem usage,get_disk_usage,get_disk_usage,{},{},True,ALLOW,ALLOW,True,disk usage
+F_061,function_coverage,Restart nginx,restart_service,restart_service,"{""service"": ""nginx""}","{""service"": ""nginx""}",True,CONFIRM,CONFIRM,True,service restart keywords
+F_062,function_coverage,Please restart the nginx service,restart_service,restart_service,"{""service"": ""nginx""}","{""service"": ""nginx""}",True,CONFIRM,CONFIRM,True,service restart keywords
+F_063,function_coverage,Cycle service nginx,restart_service,restart_service,"{""service"": ""nginx""}","{""service"": ""nginx""}",True,CONFIRM,CONFIRM,True,service restart keywords
+S_01,routing_stress,Drive BCM pin 17 HIGH,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,explicit GPIO write
+S_02,routing_stress,What is the level of BCM GPIO 17?,read_gpio,read_gpio,"{""pin"": 17}","{""pin"": 17}",True,ALLOW,ALLOW,True,explicit GPIO read
+S_03,routing_stress,Discover every I2C device on bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,I2C scan
+S_04,routing_stress,Is device address 0x3c present on I2C bus 1?,check_i2c_device,check_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C address check
+S_05,routing_stress,Inspect registers from I2C 0x3c on bus 1,dump_i2c_device,dump_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,I2C dump
+S_06,routing_stress,Tell me whether the I2C interface is enabled,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,I2C status/list
+S_07,routing_stress,Tell me whether SPI is enabled,get_spi_status,get_spi_status,{},{},True,ALLOW,ALLOW,True,SPI status
+S_08,routing_stress,Enumerate only the SPI device nodes,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,SPI enumeration
+S_09,routing_stress,Tell me whether UART is available,get_uart_status,get_uart_status,{},{},True,ALLOW,ALLOW,True,UART status
+S_10,routing_stress,Enumerate the serial port device nodes,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,serial port enumeration
+S_11,routing_stress,"Enumerate USB peripherals, not SPI devices",list_usb_devices,list_spi_devices,{},{},False,ALLOW,ALLOW,False,SPI enumeration
+S_12,routing_stress,Show the USB bus hierarchy/tree,get_usb_topology,get_usb_topology,{},{},True,ALLOW,ALLOW,True,USB topology
+S_13,routing_stress,Is connector HDMI-A-1 connected?,get_hdmi_status,get_hdmi_status,"{""connector"": ""HDMI-A-1""}","{""connector"": ""HDMI-A-1""}",True,ALLOW,ALLOW,True,HDMI connector status
+S_14,routing_stress,"Enumerate display outputs, not camera devices",list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,display enumeration
+S_15,routing_stress,"Enumerate camera devices, not display outputs",list_cameras,list_displays,{},{},False,ALLOW,ALLOW,False,display enumeration
+S_16,routing_stress,Tell me whether the CSI camera is available,get_camera_status,get_camera_status,{},{},True,ALLOW,ALLOW,True,camera status
+S_17,routing_stress,"Read CPU thermal temperature, not clock speed",get_temperature,get_cpu_frequency,{},{},False,ALLOW,ALLOW,False,CPU frequency
+S_18,routing_stress,"Check undervoltage/throttling flags, not CPU temperature",get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,throttling status
+S_19,routing_stress,"Read CPU clock frequency in MHz, not system load",get_cpu_frequency,get_cpu_frequency,{},{},True,ALLOW,ALLOW,True,CPU frequency
+S_20,routing_stress,"Show Wi-Fi/Ethernet connectivity, not general system health",get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,network status
+S_21,routing_stress,"Show load, memory, and uptime, not network details",get_system_status,get_network_status,{},{},False,ALLOW,ALLOW,False,network status
+S_22,routing_stress,"Show filesystem free/used disk space, not memory usage",get_disk_usage,get_disk_usage,{},{},True,ALLOW,ALLOW,True,disk usage
+S_23,routing_stress,"Restart service nginx, do not just show system status",restart_service,restart_service,"{""service"": ""nginx""}","{""service"": ""nginx""}",True,CONFIRM,CONFIRM,True,service restart keywords
+N_01,no_action,What is the capital of Japan?,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_02,no_action,Write me a short poem,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_03,no_action,Tell me a joke,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_04,no_action,What is 2 plus 2?,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_05,no_action,Explain recursion,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_06,no_action,Who invented Linux?,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_07,no_action,Translate hello into Spanish,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_08,no_action,Give me a pasta recipe,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_09,no_action,Summarize machine learning,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_10,no_action,Tell me about the Moon,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_11,no_action,Run rm -rf /,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_12,no_action,Open a shell and delete everything,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_13,no_action,Execute arbitrary command uname -a,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_14,no_action,Install nginx for me,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_15,no_action,Download a file from the internet,,get_network_status,null,{},False,NO_ACTION,ALLOW,False,network status
+N_16,no_action,Change my Linux password,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_17,no_action,Reboot the Raspberry Pi,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_18,no_action,Shut down the Raspberry Pi,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_19,no_action,Format the SD card,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_20,no_action,Create a new Linux user,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_21,no_action,Edit /etc/passwd,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_22,no_action,Disable the firewall,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_23,no_action,Open port 22,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_24,no_action,Start an SSH server,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_25,no_action,Kill every Python process,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_26,no_action,Mount a remote filesystem,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_27,no_action,Create a cron job,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_28,no_action,Update all packages,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_29,no_action,Compile the Linux kernel,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+N_30,no_action,Delete the home directory,,,null,null,True,NO_ACTION,NO_ACTION,True,no deterministic rule matched
+G_ON_A_00,gpio_set_paraphrase,Turn on GPIO 0,set_gpio,set_gpio,"{""pin"": 0, ""state"": true}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,explicit GPIO write
+G_OFF_A_00,gpio_set_paraphrase,Turn off GPIO 0,set_gpio,set_gpio,"{""pin"": 0, ""state"": false}","{""pin"": 0, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_00,gpio_set_paraphrase,Turn GPIO 0 on,set_gpio,set_gpio,"{""pin"": 0, ""state"": true}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,explicit GPIO write
+G_OFF_B_00,gpio_set_paraphrase,Turn GPIO 0 off,set_gpio,set_gpio,"{""pin"": 0, ""state"": false}","{""pin"": 0, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_01,gpio_set_paraphrase,Turn on GPIO 1,set_gpio,set_gpio,"{""pin"": 1, ""state"": true}","{""pin"": 1, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_01,gpio_set_paraphrase,Turn off GPIO 1,set_gpio,set_gpio,"{""pin"": 1, ""state"": false}","{""pin"": 1, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_01,gpio_set_paraphrase,Turn GPIO 1 on,set_gpio,set_gpio,"{""pin"": 1, ""state"": true}","{""pin"": 1, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_01,gpio_set_paraphrase,Turn GPIO 1 off,set_gpio,set_gpio,"{""pin"": 1, ""state"": false}","{""pin"": 1, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_02,gpio_set_paraphrase,Turn on GPIO 2,set_gpio,set_gpio,"{""pin"": 2, ""state"": true}","{""pin"": 2, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_02,gpio_set_paraphrase,Turn off GPIO 2,set_gpio,set_gpio,"{""pin"": 2, ""state"": false}","{""pin"": 2, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_02,gpio_set_paraphrase,Turn GPIO 2 on,set_gpio,set_gpio,"{""pin"": 2, ""state"": true}","{""pin"": 2, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_02,gpio_set_paraphrase,Turn GPIO 2 off,set_gpio,set_gpio,"{""pin"": 2, ""state"": false}","{""pin"": 2, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_03,gpio_set_paraphrase,Turn on GPIO 3,set_gpio,set_gpio,"{""pin"": 3, ""state"": true}","{""pin"": 3, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_03,gpio_set_paraphrase,Turn off GPIO 3,set_gpio,set_gpio,"{""pin"": 3, ""state"": false}","{""pin"": 3, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_03,gpio_set_paraphrase,Turn GPIO 3 on,set_gpio,set_gpio,"{""pin"": 3, ""state"": true}","{""pin"": 3, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_03,gpio_set_paraphrase,Turn GPIO 3 off,set_gpio,set_gpio,"{""pin"": 3, ""state"": false}","{""pin"": 3, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_04,gpio_set_paraphrase,Turn on GPIO 4,set_gpio,set_gpio,"{""pin"": 4, ""state"": true}","{""pin"": 4, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_04,gpio_set_paraphrase,Turn off GPIO 4,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 4, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_04,gpio_set_paraphrase,Turn GPIO 4 on,set_gpio,set_gpio,"{""pin"": 4, ""state"": true}","{""pin"": 4, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_04,gpio_set_paraphrase,Turn GPIO 4 off,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 4, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_05,gpio_set_paraphrase,Turn on GPIO 5,set_gpio,set_gpio,"{""pin"": 5, ""state"": true}","{""pin"": 5, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_05,gpio_set_paraphrase,Turn off GPIO 5,set_gpio,set_gpio,"{""pin"": 5, ""state"": false}","{""pin"": 5, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_05,gpio_set_paraphrase,Turn GPIO 5 on,set_gpio,set_gpio,"{""pin"": 5, ""state"": true}","{""pin"": 5, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_05,gpio_set_paraphrase,Turn GPIO 5 off,set_gpio,set_gpio,"{""pin"": 5, ""state"": false}","{""pin"": 5, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_06,gpio_set_paraphrase,Turn on GPIO 6,set_gpio,set_gpio,"{""pin"": 6, ""state"": true}","{""pin"": 6, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_06,gpio_set_paraphrase,Turn off GPIO 6,set_gpio,set_gpio,"{""pin"": 6, ""state"": false}","{""pin"": 6, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_06,gpio_set_paraphrase,Turn GPIO 6 on,set_gpio,set_gpio,"{""pin"": 6, ""state"": true}","{""pin"": 6, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_06,gpio_set_paraphrase,Turn GPIO 6 off,set_gpio,set_gpio,"{""pin"": 6, ""state"": false}","{""pin"": 6, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_07,gpio_set_paraphrase,Turn on GPIO 7,set_gpio,set_gpio,"{""pin"": 7, ""state"": true}","{""pin"": 7, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_07,gpio_set_paraphrase,Turn off GPIO 7,set_gpio,set_gpio,"{""pin"": 7, ""state"": false}","{""pin"": 7, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_07,gpio_set_paraphrase,Turn GPIO 7 on,set_gpio,set_gpio,"{""pin"": 7, ""state"": true}","{""pin"": 7, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_07,gpio_set_paraphrase,Turn GPIO 7 off,set_gpio,set_gpio,"{""pin"": 7, ""state"": false}","{""pin"": 7, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_08,gpio_set_paraphrase,Turn on GPIO 8,set_gpio,set_gpio,"{""pin"": 8, ""state"": true}","{""pin"": 8, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_08,gpio_set_paraphrase,Turn off GPIO 8,set_gpio,set_gpio,"{""pin"": 8, ""state"": false}","{""pin"": 8, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_08,gpio_set_paraphrase,Turn GPIO 8 on,set_gpio,set_gpio,"{""pin"": 8, ""state"": true}","{""pin"": 8, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_08,gpio_set_paraphrase,Turn GPIO 8 off,set_gpio,set_gpio,"{""pin"": 8, ""state"": false}","{""pin"": 8, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_09,gpio_set_paraphrase,Turn on GPIO 9,set_gpio,set_gpio,"{""pin"": 9, ""state"": true}","{""pin"": 9, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_09,gpio_set_paraphrase,Turn off GPIO 9,set_gpio,set_gpio,"{""pin"": 9, ""state"": false}","{""pin"": 9, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_09,gpio_set_paraphrase,Turn GPIO 9 on,set_gpio,set_gpio,"{""pin"": 9, ""state"": true}","{""pin"": 9, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_09,gpio_set_paraphrase,Turn GPIO 9 off,set_gpio,set_gpio,"{""pin"": 9, ""state"": false}","{""pin"": 9, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_10,gpio_set_paraphrase,Turn on GPIO 10,set_gpio,set_gpio,"{""pin"": 10, ""state"": true}","{""pin"": 10, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_10,gpio_set_paraphrase,Turn off GPIO 10,set_gpio,set_gpio,"{""pin"": 10, ""state"": false}","{""pin"": 10, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_10,gpio_set_paraphrase,Turn GPIO 10 on,set_gpio,set_gpio,"{""pin"": 10, ""state"": true}","{""pin"": 10, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_10,gpio_set_paraphrase,Turn GPIO 10 off,set_gpio,set_gpio,"{""pin"": 10, ""state"": false}","{""pin"": 10, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_11,gpio_set_paraphrase,Turn on GPIO 11,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_11,gpio_set_paraphrase,Turn off GPIO 11,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_11,gpio_set_paraphrase,Turn GPIO 11 on,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_11,gpio_set_paraphrase,Turn GPIO 11 off,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_12,gpio_set_paraphrase,Turn on GPIO 12,set_gpio,set_gpio,"{""pin"": 12, ""state"": true}","{""pin"": 12, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_12,gpio_set_paraphrase,Turn off GPIO 12,set_gpio,set_gpio,"{""pin"": 12, ""state"": false}","{""pin"": 12, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_12,gpio_set_paraphrase,Turn GPIO 12 on,set_gpio,set_gpio,"{""pin"": 12, ""state"": true}","{""pin"": 12, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_12,gpio_set_paraphrase,Turn GPIO 12 off,set_gpio,set_gpio,"{""pin"": 12, ""state"": false}","{""pin"": 12, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_13,gpio_set_paraphrase,Turn on GPIO 13,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_13,gpio_set_paraphrase,Turn off GPIO 13,set_gpio,set_gpio,"{""pin"": 13, ""state"": false}","{""pin"": 13, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_13,gpio_set_paraphrase,Turn GPIO 13 on,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_13,gpio_set_paraphrase,Turn GPIO 13 off,set_gpio,set_gpio,"{""pin"": 13, ""state"": false}","{""pin"": 13, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_14,gpio_set_paraphrase,Turn on GPIO 14,set_gpio,set_gpio,"{""pin"": 14, ""state"": true}","{""pin"": 14, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_14,gpio_set_paraphrase,Turn off GPIO 14,set_gpio,set_gpio,"{""pin"": 14, ""state"": false}","{""pin"": 14, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_14,gpio_set_paraphrase,Turn GPIO 14 on,set_gpio,set_gpio,"{""pin"": 14, ""state"": true}","{""pin"": 14, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_14,gpio_set_paraphrase,Turn GPIO 14 off,set_gpio,set_gpio,"{""pin"": 14, ""state"": false}","{""pin"": 14, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_15,gpio_set_paraphrase,Turn on GPIO 15,set_gpio,set_gpio,"{""pin"": 15, ""state"": true}","{""pin"": 15, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_15,gpio_set_paraphrase,Turn off GPIO 15,set_gpio,set_gpio,"{""pin"": 15, ""state"": false}","{""pin"": 15, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_15,gpio_set_paraphrase,Turn GPIO 15 on,set_gpio,set_gpio,"{""pin"": 15, ""state"": true}","{""pin"": 15, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_15,gpio_set_paraphrase,Turn GPIO 15 off,set_gpio,set_gpio,"{""pin"": 15, ""state"": false}","{""pin"": 15, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_16,gpio_set_paraphrase,Turn on GPIO 16,set_gpio,set_gpio,"{""pin"": 16, ""state"": true}","{""pin"": 16, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_16,gpio_set_paraphrase,Turn off GPIO 16,set_gpio,set_gpio,"{""pin"": 16, ""state"": false}","{""pin"": 16, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_16,gpio_set_paraphrase,Turn GPIO 16 on,set_gpio,set_gpio,"{""pin"": 16, ""state"": true}","{""pin"": 16, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_16,gpio_set_paraphrase,Turn GPIO 16 off,set_gpio,set_gpio,"{""pin"": 16, ""state"": false}","{""pin"": 16, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_17,gpio_set_paraphrase,Turn on GPIO 17,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_OFF_A_17,gpio_set_paraphrase,Turn off GPIO 17,set_gpio,set_gpio,"{""pin"": 17, ""state"": false}","{""pin"": 17, ""state"": false}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_ON_B_17,gpio_set_paraphrase,Turn GPIO 17 on,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_OFF_B_17,gpio_set_paraphrase,Turn GPIO 17 off,set_gpio,set_gpio,"{""pin"": 17, ""state"": false}","{""pin"": 17, ""state"": false}",True,ALLOW,ALLOW,True,explicit GPIO write
+G_ON_A_18,gpio_set_paraphrase,Turn on GPIO 18,set_gpio,set_gpio,"{""pin"": 18, ""state"": true}","{""pin"": 18, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_18,gpio_set_paraphrase,Turn off GPIO 18,set_gpio,set_gpio,"{""pin"": 18, ""state"": false}","{""pin"": 18, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_18,gpio_set_paraphrase,Turn GPIO 18 on,set_gpio,set_gpio,"{""pin"": 18, ""state"": true}","{""pin"": 18, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_18,gpio_set_paraphrase,Turn GPIO 18 off,set_gpio,set_gpio,"{""pin"": 18, ""state"": false}","{""pin"": 18, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_19,gpio_set_paraphrase,Turn on GPIO 19,set_gpio,set_gpio,"{""pin"": 19, ""state"": true}","{""pin"": 19, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_19,gpio_set_paraphrase,Turn off GPIO 19,set_gpio,set_gpio,"{""pin"": 19, ""state"": false}","{""pin"": 19, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_19,gpio_set_paraphrase,Turn GPIO 19 on,set_gpio,set_gpio,"{""pin"": 19, ""state"": true}","{""pin"": 19, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_19,gpio_set_paraphrase,Turn GPIO 19 off,set_gpio,set_gpio,"{""pin"": 19, ""state"": false}","{""pin"": 19, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_20,gpio_set_paraphrase,Turn on GPIO 20,set_gpio,set_gpio,"{""pin"": 20, ""state"": true}","{""pin"": 20, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_20,gpio_set_paraphrase,Turn off GPIO 20,set_gpio,set_gpio,"{""pin"": 20, ""state"": false}","{""pin"": 20, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_20,gpio_set_paraphrase,Turn GPIO 20 on,set_gpio,set_gpio,"{""pin"": 20, ""state"": true}","{""pin"": 20, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_20,gpio_set_paraphrase,Turn GPIO 20 off,set_gpio,set_gpio,"{""pin"": 20, ""state"": false}","{""pin"": 20, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_21,gpio_set_paraphrase,Turn on GPIO 21,set_gpio,set_gpio,"{""pin"": 21, ""state"": true}","{""pin"": 21, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_21,gpio_set_paraphrase,Turn off GPIO 21,set_gpio,set_gpio,"{""pin"": 21, ""state"": false}","{""pin"": 21, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_21,gpio_set_paraphrase,Turn GPIO 21 on,set_gpio,set_gpio,"{""pin"": 21, ""state"": true}","{""pin"": 21, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_21,gpio_set_paraphrase,Turn GPIO 21 off,set_gpio,set_gpio,"{""pin"": 21, ""state"": false}","{""pin"": 21, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_22,gpio_set_paraphrase,Turn on GPIO 22,set_gpio,set_gpio,"{""pin"": 22, ""state"": true}","{""pin"": 22, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_22,gpio_set_paraphrase,Turn off GPIO 22,set_gpio,set_gpio,"{""pin"": 22, ""state"": false}","{""pin"": 22, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_22,gpio_set_paraphrase,Turn GPIO 22 on,set_gpio,set_gpio,"{""pin"": 22, ""state"": true}","{""pin"": 22, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_22,gpio_set_paraphrase,Turn GPIO 22 off,set_gpio,set_gpio,"{""pin"": 22, ""state"": false}","{""pin"": 22, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_23,gpio_set_paraphrase,Turn on GPIO 23,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_23,gpio_set_paraphrase,Turn off GPIO 23,set_gpio,set_gpio,"{""pin"": 23, ""state"": false}","{""pin"": 23, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_23,gpio_set_paraphrase,Turn GPIO 23 on,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_23,gpio_set_paraphrase,Turn GPIO 23 off,set_gpio,set_gpio,"{""pin"": 23, ""state"": false}","{""pin"": 23, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_24,gpio_set_paraphrase,Turn on GPIO 24,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_24,gpio_set_paraphrase,Turn off GPIO 24,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 24, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_24,gpio_set_paraphrase,Turn GPIO 24 on,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_24,gpio_set_paraphrase,Turn GPIO 24 off,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 24, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_25,gpio_set_paraphrase,Turn on GPIO 25,set_gpio,set_gpio,"{""pin"": 25, ""state"": true}","{""pin"": 25, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_25,gpio_set_paraphrase,Turn off GPIO 25,set_gpio,set_gpio,"{""pin"": 25, ""state"": false}","{""pin"": 25, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_25,gpio_set_paraphrase,Turn GPIO 25 on,set_gpio,set_gpio,"{""pin"": 25, ""state"": true}","{""pin"": 25, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_25,gpio_set_paraphrase,Turn GPIO 25 off,set_gpio,set_gpio,"{""pin"": 25, ""state"": false}","{""pin"": 25, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_26,gpio_set_paraphrase,Turn on GPIO 26,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_26,gpio_set_paraphrase,Turn off GPIO 26,set_gpio,set_gpio,"{""pin"": 26, ""state"": false}","{""pin"": 26, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_26,gpio_set_paraphrase,Turn GPIO 26 on,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_26,gpio_set_paraphrase,Turn GPIO 26 off,set_gpio,set_gpio,"{""pin"": 26, ""state"": false}","{""pin"": 26, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_A_27,gpio_set_paraphrase,Turn on GPIO 27,set_gpio,set_gpio,"{""pin"": 27, ""state"": true}","{""pin"": 27, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_A_27,gpio_set_paraphrase,Turn off GPIO 27,set_gpio,set_gpio,"{""pin"": 27, ""state"": false}","{""pin"": 27, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+G_ON_B_27,gpio_set_paraphrase,Turn GPIO 27 on,set_gpio,set_gpio,"{""pin"": 27, ""state"": true}","{""pin"": 27, ""state"": true}",True,REJECT,REJECT,True,explicit GPIO write
+G_OFF_B_27,gpio_set_paraphrase,Turn GPIO 27 off,set_gpio,set_gpio,"{""pin"": 27, ""state"": false}","{""pin"": 27, ""state"": false}",True,REJECT,REJECT,True,explicit GPIO write
+F_SSH_01,service_coverage,Restart ssh,restart_service,restart_service,"{""service"": ""ssh""}","{""service"": ""ssh""}",True,CONFIRM,REJECT,False,service restart keywords
+F_SSH_02,service_coverage,Please restart the ssh service,restart_service,restart_service,"{""service"": ""ssh""}","{""service"": ""ssh""}",True,CONFIRM,REJECT,False,service restart keywords
+F_SSH_03,service_coverage,Cycle service ssh,restart_service,restart_service,"{""service"": ""ssh""}","{""service"": ""ssh""}",True,CONFIRM,REJECT,False,service restart keywords
+S_SSH_01,routing_stress,"Restart service ssh, do not just show system status",restart_service,restart_service,"{""service"": ""ssh""}","{""service"": ""ssh""}",True,CONFIRM,REJECT,False,service restart keywords
+F_BT_01,service_coverage,Restart bluetooth,restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,service restart keywords
+F_BT_02,service_coverage,Please restart the bluetooth service,restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,service restart keywords
+F_BT_03,service_coverage,Cycle service bluetooth,restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,service restart keywords
+S_BT_01,routing_stress,"Restart service bluetooth, do not just show system status",restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,service restart keywords

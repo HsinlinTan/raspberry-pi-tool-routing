@@ -1,0 +1,30 @@
+{"id": "S30_GS_01", "category": "gpio_set", "query": "Turn GPIO 17 on.", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "S30_GS_02", "category": "gpio_set", "query": "Set GPIO 5 to false.", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": false}}
+{"id": "S30_GS_03", "category": "gpio_set", "query": "Drive BCM22 high.", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": true}}
+{"id": "S30_GS_04", "category": "gpio_set", "query": "Turn GPIO 10 off.", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": false}}
+{"id": "S30_GS_05", "category": "gpio_set", "query": "Set pin 27 high.", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": true}}
+{"id": "S30_GS_06", "category": "gpio_set", "query": "Disable GPIO 4.", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": false}}
+{"id": "S30_GS_07", "category": "gpio_set", "query": "Switch on BCM0.", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": true}}
+{"id": "S30_GS_08", "category": "gpio_set", "query": "Pull GPIO 21 low.", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": false}}
+{"id": "S30_GR_01", "category": "gpio_read", "query": "Read GPIO 17.", "expected_tool": "read_gpio", "expected_args": {"pin": 17}}
+{"id": "S30_GR_02", "category": "gpio_read", "query": "Check GPIO 5 status.", "expected_tool": "read_gpio", "expected_args": {"pin": 5}}
+{"id": "S30_GR_03", "category": "gpio_read", "query": "What is the state of BCM22?", "expected_tool": "read_gpio", "expected_args": {"pin": 22}}
+{"id": "S30_GR_04", "category": "gpio_read", "query": "Read pin 10.", "expected_tool": "read_gpio", "expected_args": {"pin": 10}}
+{"id": "S30_GR_05", "category": "gpio_read", "query": "Is GPIO 27 high?", "expected_tool": "read_gpio", "expected_args": {"pin": 27}}
+{"id": "S30_GR_06", "category": "gpio_read", "query": "Check GPIO 4.", "expected_tool": "read_gpio", "expected_args": {"pin": 4}}
+{"id": "S30_GR_07", "category": "gpio_read", "query": "Tell me the current level of BCM0.", "expected_tool": "read_gpio", "expected_args": {"pin": 0}}
+{"id": "S30_GR_08", "category": "gpio_read", "query": "Read the state of GPIO 21.", "expected_tool": "read_gpio", "expected_args": {"pin": 21}}
+{"id": "S30_O_01", "category": "system", "query": "Check system status.", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "S30_O_02", "category": "temperature", "query": "What is the CPU temperature?", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "S30_O_03", "category": "network", "query": "Show network status.", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "S30_O_04", "category": "disk", "query": "Show disk usage.", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "S30_O_05", "category": "i2c_scan", "query": "Scan I2C bus 1.", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "S30_O_06", "category": "i2c_check", "query": "Check I2C device 0x3c on bus 1.", "expected_tool": "check_i2c_device", "expected_args": {"bus": 1, "address": "0x3c"}}
+{"id": "S30_O_07", "category": "i2c_dump", "query": "Dump I2C address 0x68 on bus 1.", "expected_tool": "dump_i2c_device", "expected_args": {"bus": 1, "address": "0x68"}}
+{"id": "S30_O_08", "category": "spi_status", "query": "Show SPI status.", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "S30_O_09", "category": "spi_list", "query": "List SPI devices.", "expected_tool": "list_spi_devices", "expected_args": {}}
+{"id": "S30_O_10", "category": "uart_status", "query": "Check UART status.", "expected_tool": "get_uart_status", "expected_args": {}}
+{"id": "S30_O_11", "category": "serial_list", "query": "List serial ports.", "expected_tool": "list_serial_ports", "expected_args": {}}
+{"id": "S30_O_12", "category": "usb_list", "query": "List USB devices.", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "S30_O_13", "category": "usb_topology", "query": "Show the USB topology tree.", "expected_tool": "get_usb_topology", "expected_args": {}}
+{"id": "S30_O_14", "category": "service", "query": "Restart ssh service.", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}

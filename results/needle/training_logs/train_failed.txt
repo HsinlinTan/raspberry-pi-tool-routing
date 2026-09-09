@@ -1,0 +1,57 @@
+(needle-ft-env) root@TanHsinlin:/mnt/d/workspace/needle_train# needle finetune needle_finetune_fixed_split.jsonl --val-split 0.2 --epochs 5 --batch-size 16 --lr 1e-4 --lora-rank 16 --lora-alpha 32 --max-len 1024
+  fetch     checkpoints/needle2.pkl  downloading from Hugging Face
+checkpoints/needle2.pkl: downloading bytes: ███████████████████████████████████████████████████████████████████████████████████████| 88.9MB, 7.56MB/s
+checkpoints/needle2.pkl: reconstructing file: 100%|███████████████████████████████████████████████████████████████████████| 90.4MB / 90.4MB, 8.12MB/s
+E0821 16:09:42.854144     680 cuda_executor.cc:1348] [0] Failed to allocate device memory of 6.00GiB (6440353792 bytes): RESOURCE_EXHAUSTED: : CUDA_ERROR_OUT_OF_MEMORY: out of memory
+=== Source Location Trace: ===
+external/xla+/xla/stream_executor/cuda/cuda_status.cc:45
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:226
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:389
+
+E0821 16:09:42.855008     680 cuda_executor.cc:1348] [0] Failed to allocate device memory of 5.40GiB (5796318208 bytes): RESOURCE_EXHAUSTED: : CUDA_ERROR_OUT_OF_MEMORY: out of memory
+=== Source Location Trace: ===
+external/xla+/xla/stream_executor/cuda/cuda_status.cc:45
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:226
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:389
+
+E0821 16:09:42.855984     680 cuda_executor.cc:1348] [0] Failed to allocate device memory of 4.86GiB (5216686080 bytes): RESOURCE_EXHAUSTED: : CUDA_ERROR_OUT_OF_MEMORY: out of memory
+=== Source Location Trace: ===
+external/xla+/xla/stream_executor/cuda/cuda_status.cc:45
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:226
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:389
+
+E0821 16:09:42.858329     680 cuda_executor.cc:1348] [0] Failed to allocate device memory of 4.37GiB (4695017472 bytes): RESOURCE_EXHAUSTED: : CUDA_ERROR_OUT_OF_MEMORY: out of memory
+=== Source Location Trace: ===
+external/xla+/xla/stream_executor/cuda/cuda_status.cc:45
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:226
+external/xla+/xla/stream_executor/cuda/cuda_device_allocator.cc:389
+
+  backend   gpu  float32
+  fetch     tokenizer tokenizer  downloading from Hugging Face
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+tokenizer/tokenizer.model: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████| 85.3kB, 8.19kB/s
+tokenizer/tokenizer.model: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████|  132kB /  132kB, 12.7kB/s
+tokenizer.vocab: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 113k/113k [00:00<00:00, 16.9MB/s]
+  data      1500 examples  seq_len 1024  cap 1024
+  lora      rank 16  alpha 32  5 weight groups
+  holdout   300 examples for validation
+  schedule  375 steps  warmup 18  cosine decay  clip 1.0  (compiling...)
+Traceback (most recent call last):
+  File "/root/needle-ft-env/bin/needle", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/needle-ft-env/lib/python3.12/site-packages/needle/cli.py", line 198, in main
+    finetune_local(args)
+  File "/root/needle-ft-env/lib/python3.12/site-packages/needle/model/finetune.py", line 377, in finetune_local
+    last = float(loss)
+           ^^^^^^^^^^^
+  File "/root/needle-ft-env/lib/python3.12/site-packages/jax/_src/array.py", line 300, in __float__
+    return self._value.__float__()
+           ^^^^^^^^^^^
+  File "/root/needle-ft-env/lib/python3.12/site-packages/jax/_src/profiler.py", line 420, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/needle-ft-env/lib/python3.12/site-packages/jax/_src/array.py", line 642, in _value
+    npy_value, did_copy = self._single_device_array_to_np_array_did_copy()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jax.errors.JaxRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 5.78GiB with allocator GPU_0_bfc on device 0. [executable_name='jit_train_step'] [tf-allocator-allocation-error='']

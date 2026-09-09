@@ -1,0 +1,14 @@
+model,weights,cases,routing_exact_pct,task_exact_pct,no_call_count,multi_call_count,median_latency_s,p95_latency_s
+needle2_base.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle2_base.cact,320,47.5,46.25,156,8,2.2212403234952944,3.0654263652970255
+needle_rpi_2048_v6_ep7.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_2048_v6_ep7.cact,320,49.6875,49.0625,158,2,1.6447916000033729,2.940991194461822
+needle_rpi_ft07_lr5e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft07_lr5e5.cact,320,65.3125,64.375,19,3,2.079239045495342,3.209327726049378
+needle_rpi_ft08_ep3.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft08_ep3.cact,320,67.8125,67.1875,29,4,2.198638038506033,3.243035454039637
+needle_rpi_ft09_rank8_alpha16.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft09_rank8_alpha16.cact,320,55.0,54.0625,33,3,1.8563174924929626,3.1327507645983133
+needle_rpi_ft10_rank32_alpha64.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft10_rank32_alpha64.cact,320,38.4375,37.5,209,0,1.6981414389956626,3.2255350229439568
+needle_rpi_ft11_lr6e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft11_lr6e5.cact,320,66.25,65.0,27,3,2.0567882359973737,3.20537098690329
+needle_rpi_ft11_lr7.5e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft11_lr7.5e5.cact,320,63.125,62.1875,46,4,2.02330349550175,3.223711281103897
+needle_rpi_ft11_lr7e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft11_lr7e5.cact,320,62.5,61.875,40,3,2.0392453525055316,3.260431008062733
+needle_rpi_ft11_lr8e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft11_lr8e5.cact,320,57.1875,55.9375,66,4,1.918409990001237,3.2092421331566583
+needle_rpi_ft11_lr9e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft11_lr9e5.cact,320,58.75,57.8125,68,4,1.8880135275030625,3.1572670951572945
+needle_rpi_ft12_lr8p5e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft12_lr8p5e5.cact,320,54.375,53.4375,70,2,1.8387332005004282,3.176724086005561
+needle_rpi_ft12_lr9p5e5.cact,/home/pi4/Simple_Pi_Agent/needle_pi_needle_only_v2/models/needle_rpi_ft12_lr9p5e5.cact,320,60.0,59.0625,68,3,1.8572815295046894,3.1594570551540526

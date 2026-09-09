@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+models/needle/*.cact
+models/needle/*.pkl
+models/llama_cpp/*.gguf
+results/**/new_*/

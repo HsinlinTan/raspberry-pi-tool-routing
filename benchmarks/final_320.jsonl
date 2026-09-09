@@ -1,0 +1,320 @@
+{"id": "G_R_00", "category": "gpio_read_exhaustive", "query": "Read GPIO 0", "expected_tool": "read_gpio", "expected_args": {"pin": 0}}
+{"id": "G_H_00", "category": "gpio_set_exhaustive", "query": "Set GPIO 0 high", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": true}}
+{"id": "G_L_00", "category": "gpio_set_exhaustive", "query": "Set GPIO 0 low", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": false}}
+{"id": "G_R_01", "category": "gpio_read_exhaustive", "query": "Read GPIO 1", "expected_tool": "read_gpio", "expected_args": {"pin": 1}}
+{"id": "G_H_01", "category": "gpio_set_exhaustive", "query": "Set GPIO 1 high", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": true}}
+{"id": "G_L_01", "category": "gpio_set_exhaustive", "query": "Set GPIO 1 low", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": false}}
+{"id": "G_R_02", "category": "gpio_read_exhaustive", "query": "Read GPIO 2", "expected_tool": "read_gpio", "expected_args": {"pin": 2}}
+{"id": "G_H_02", "category": "gpio_set_exhaustive", "query": "Set GPIO 2 high", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": true}}
+{"id": "G_L_02", "category": "gpio_set_exhaustive", "query": "Set GPIO 2 low", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": false}}
+{"id": "G_R_03", "category": "gpio_read_exhaustive", "query": "Read GPIO 3", "expected_tool": "read_gpio", "expected_args": {"pin": 3}}
+{"id": "G_H_03", "category": "gpio_set_exhaustive", "query": "Set GPIO 3 high", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": true}}
+{"id": "G_L_03", "category": "gpio_set_exhaustive", "query": "Set GPIO 3 low", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": false}}
+{"id": "G_R_04", "category": "gpio_read_exhaustive", "query": "Read GPIO 4", "expected_tool": "read_gpio", "expected_args": {"pin": 4}}
+{"id": "G_H_04", "category": "gpio_set_exhaustive", "query": "Set GPIO 4 high", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": true}}
+{"id": "G_L_04", "category": "gpio_set_exhaustive", "query": "Set GPIO 4 low", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": false}}
+{"id": "G_R_05", "category": "gpio_read_exhaustive", "query": "Read GPIO 5", "expected_tool": "read_gpio", "expected_args": {"pin": 5}}
+{"id": "G_H_05", "category": "gpio_set_exhaustive", "query": "Set GPIO 5 high", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": true}}
+{"id": "G_L_05", "category": "gpio_set_exhaustive", "query": "Set GPIO 5 low", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": false}}
+{"id": "G_R_06", "category": "gpio_read_exhaustive", "query": "Read GPIO 6", "expected_tool": "read_gpio", "expected_args": {"pin": 6}}
+{"id": "G_H_06", "category": "gpio_set_exhaustive", "query": "Set GPIO 6 high", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": true}}
+{"id": "G_L_06", "category": "gpio_set_exhaustive", "query": "Set GPIO 6 low", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": false}}
+{"id": "G_R_07", "category": "gpio_read_exhaustive", "query": "Read GPIO 7", "expected_tool": "read_gpio", "expected_args": {"pin": 7}}
+{"id": "G_H_07", "category": "gpio_set_exhaustive", "query": "Set GPIO 7 high", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": true}}
+{"id": "G_L_07", "category": "gpio_set_exhaustive", "query": "Set GPIO 7 low", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": false}}
+{"id": "G_R_08", "category": "gpio_read_exhaustive", "query": "Read GPIO 8", "expected_tool": "read_gpio", "expected_args": {"pin": 8}}
+{"id": "G_H_08", "category": "gpio_set_exhaustive", "query": "Set GPIO 8 high", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": true}}
+{"id": "G_L_08", "category": "gpio_set_exhaustive", "query": "Set GPIO 8 low", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": false}}
+{"id": "G_R_09", "category": "gpio_read_exhaustive", "query": "Read GPIO 9", "expected_tool": "read_gpio", "expected_args": {"pin": 9}}
+{"id": "G_H_09", "category": "gpio_set_exhaustive", "query": "Set GPIO 9 high", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": true}}
+{"id": "G_L_09", "category": "gpio_set_exhaustive", "query": "Set GPIO 9 low", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": false}}
+{"id": "G_R_10", "category": "gpio_read_exhaustive", "query": "Read GPIO 10", "expected_tool": "read_gpio", "expected_args": {"pin": 10}}
+{"id": "G_H_10", "category": "gpio_set_exhaustive", "query": "Set GPIO 10 high", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": true}}
+{"id": "G_L_10", "category": "gpio_set_exhaustive", "query": "Set GPIO 10 low", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": false}}
+{"id": "G_R_11", "category": "gpio_read_exhaustive", "query": "Read GPIO 11", "expected_tool": "read_gpio", "expected_args": {"pin": 11}}
+{"id": "G_H_11", "category": "gpio_set_exhaustive", "query": "Set GPIO 11 high", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": true}}
+{"id": "G_L_11", "category": "gpio_set_exhaustive", "query": "Set GPIO 11 low", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": false}}
+{"id": "G_R_12", "category": "gpio_read_exhaustive", "query": "Read GPIO 12", "expected_tool": "read_gpio", "expected_args": {"pin": 12}}
+{"id": "G_H_12", "category": "gpio_set_exhaustive", "query": "Set GPIO 12 high", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": true}}
+{"id": "G_L_12", "category": "gpio_set_exhaustive", "query": "Set GPIO 12 low", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": false}}
+{"id": "G_R_13", "category": "gpio_read_exhaustive", "query": "Read GPIO 13", "expected_tool": "read_gpio", "expected_args": {"pin": 13}}
+{"id": "G_H_13", "category": "gpio_set_exhaustive", "query": "Set GPIO 13 high", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": true}}
+{"id": "G_L_13", "category": "gpio_set_exhaustive", "query": "Set GPIO 13 low", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": false}}
+{"id": "G_R_14", "category": "gpio_read_exhaustive", "query": "Read GPIO 14", "expected_tool": "read_gpio", "expected_args": {"pin": 14}}
+{"id": "G_H_14", "category": "gpio_set_exhaustive", "query": "Set GPIO 14 high", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": true}}
+{"id": "G_L_14", "category": "gpio_set_exhaustive", "query": "Set GPIO 14 low", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": false}}
+{"id": "G_R_15", "category": "gpio_read_exhaustive", "query": "Read GPIO 15", "expected_tool": "read_gpio", "expected_args": {"pin": 15}}
+{"id": "G_H_15", "category": "gpio_set_exhaustive", "query": "Set GPIO 15 high", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": true}}
+{"id": "G_L_15", "category": "gpio_set_exhaustive", "query": "Set GPIO 15 low", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": false}}
+{"id": "G_R_16", "category": "gpio_read_exhaustive", "query": "Read GPIO 16", "expected_tool": "read_gpio", "expected_args": {"pin": 16}}
+{"id": "G_H_16", "category": "gpio_set_exhaustive", "query": "Set GPIO 16 high", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": true}}
+{"id": "G_L_16", "category": "gpio_set_exhaustive", "query": "Set GPIO 16 low", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": false}}
+{"id": "G_R_17", "category": "gpio_read_exhaustive", "query": "Read GPIO 17", "expected_tool": "read_gpio", "expected_args": {"pin": 17}}
+{"id": "G_H_17", "category": "gpio_set_exhaustive", "query": "Set GPIO 17 high", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "G_L_17", "category": "gpio_set_exhaustive", "query": "Set GPIO 17 low", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": false}}
+{"id": "G_R_18", "category": "gpio_read_exhaustive", "query": "Read GPIO 18", "expected_tool": "read_gpio", "expected_args": {"pin": 18}}
+{"id": "G_H_18", "category": "gpio_set_exhaustive", "query": "Set GPIO 18 high", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": true}}
+{"id": "G_L_18", "category": "gpio_set_exhaustive", "query": "Set GPIO 18 low", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": false}}
+{"id": "G_R_19", "category": "gpio_read_exhaustive", "query": "Read GPIO 19", "expected_tool": "read_gpio", "expected_args": {"pin": 19}}
+{"id": "G_H_19", "category": "gpio_set_exhaustive", "query": "Set GPIO 19 high", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": true}}
+{"id": "G_L_19", "category": "gpio_set_exhaustive", "query": "Set GPIO 19 low", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": false}}
+{"id": "G_R_20", "category": "gpio_read_exhaustive", "query": "Read GPIO 20", "expected_tool": "read_gpio", "expected_args": {"pin": 20}}
+{"id": "G_H_20", "category": "gpio_set_exhaustive", "query": "Set GPIO 20 high", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": true}}
+{"id": "G_L_20", "category": "gpio_set_exhaustive", "query": "Set GPIO 20 low", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": false}}
+{"id": "G_R_21", "category": "gpio_read_exhaustive", "query": "Read GPIO 21", "expected_tool": "read_gpio", "expected_args": {"pin": 21}}
+{"id": "G_H_21", "category": "gpio_set_exhaustive", "query": "Set GPIO 21 high", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": true}}
+{"id": "G_L_21", "category": "gpio_set_exhaustive", "query": "Set GPIO 21 low", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": false}}
+{"id": "G_R_22", "category": "gpio_read_exhaustive", "query": "Read GPIO 22", "expected_tool": "read_gpio", "expected_args": {"pin": 22}}
+{"id": "G_H_22", "category": "gpio_set_exhaustive", "query": "Set GPIO 22 high", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": true}}
+{"id": "G_L_22", "category": "gpio_set_exhaustive", "query": "Set GPIO 22 low", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": false}}
+{"id": "G_R_23", "category": "gpio_read_exhaustive", "query": "Read GPIO 23", "expected_tool": "read_gpio", "expected_args": {"pin": 23}}
+{"id": "G_H_23", "category": "gpio_set_exhaustive", "query": "Set GPIO 23 high", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": true}}
+{"id": "G_L_23", "category": "gpio_set_exhaustive", "query": "Set GPIO 23 low", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": false}}
+{"id": "G_R_24", "category": "gpio_read_exhaustive", "query": "Read GPIO 24", "expected_tool": "read_gpio", "expected_args": {"pin": 24}}
+{"id": "G_H_24", "category": "gpio_set_exhaustive", "query": "Set GPIO 24 high", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": true}}
+{"id": "G_L_24", "category": "gpio_set_exhaustive", "query": "Set GPIO 24 low", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": false}}
+{"id": "G_R_25", "category": "gpio_read_exhaustive", "query": "Read GPIO 25", "expected_tool": "read_gpio", "expected_args": {"pin": 25}}
+{"id": "G_H_25", "category": "gpio_set_exhaustive", "query": "Set GPIO 25 high", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": true}}
+{"id": "G_L_25", "category": "gpio_set_exhaustive", "query": "Set GPIO 25 low", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": false}}
+{"id": "G_R_26", "category": "gpio_read_exhaustive", "query": "Read GPIO 26", "expected_tool": "read_gpio", "expected_args": {"pin": 26}}
+{"id": "G_H_26", "category": "gpio_set_exhaustive", "query": "Set GPIO 26 high", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": true}}
+{"id": "G_L_26", "category": "gpio_set_exhaustive", "query": "Set GPIO 26 low", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": false}}
+{"id": "G_R_27", "category": "gpio_read_exhaustive", "query": "Read GPIO 27", "expected_tool": "read_gpio", "expected_args": {"pin": 27}}
+{"id": "G_H_27", "category": "gpio_set_exhaustive", "query": "Set GPIO 27 high", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": true}}
+{"id": "G_L_27", "category": "gpio_set_exhaustive", "query": "Set GPIO 27 low", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": false}}
+{"id": "F_001", "category": "function_coverage", "query": "Scan I2C bus 1", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "F_002", "category": "function_coverage", "query": "Look for devices on I2C bus 1", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "F_003", "category": "function_coverage", "query": "Detect devices on I2C bus 1", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "F_004", "category": "function_coverage", "query": "Check I2C device 0x3c on bus 1", "expected_tool": "check_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "F_005", "category": "function_coverage", "query": "Is there an I2C device at 0x68 on bus 1?", "expected_tool": "check_i2c_device", "expected_args": {"address": "0x68", "bus": 1}}
+{"id": "F_006", "category": "function_coverage", "query": "Check address 0x3c on I2C bus 1", "expected_tool": "check_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "F_007", "category": "function_coverage", "query": "Dump I2C device 0x3c on bus 1", "expected_tool": "dump_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "F_008", "category": "function_coverage", "query": "Read the register dump from I2C 0x68 on bus 1", "expected_tool": "dump_i2c_device", "expected_args": {"address": "0x68", "bus": 1}}
+{"id": "F_009", "category": "function_coverage", "query": "Inspect the I2C register map at 0x3c on bus 1", "expected_tool": "dump_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "F_010", "category": "function_coverage", "query": "Check I2C status", "expected_tool": "get_i2c_status", "expected_args": {}}
+{"id": "F_011", "category": "function_coverage", "query": "Is I2C enabled?", "expected_tool": "get_i2c_status", "expected_args": {}}
+{"id": "F_012", "category": "function_coverage", "query": "Show I2C availability", "expected_tool": "get_i2c_status", "expected_args": {}}
+{"id": "F_013", "category": "function_coverage", "query": "Check SPI status", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "F_014", "category": "function_coverage", "query": "Is SPI enabled?", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "F_015", "category": "function_coverage", "query": "Show SPI availability", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "F_016", "category": "function_coverage", "query": "List SPI devices", "expected_tool": "list_spi_devices", "expected_args": {}}
+{"id": "F_017", "category": "function_coverage", "query": "Show SPI devices", "expected_tool": "list_spi_devices", "expected_args": {}}
+{"id": "F_018", "category": "function_coverage", "query": "Enumerate SPI devices", "expected_tool": "list_spi_devices", "expected_args": {}}
+{"id": "F_019", "category": "function_coverage", "query": "Check UART status", "expected_tool": "get_uart_status", "expected_args": {}}
+{"id": "F_020", "category": "function_coverage", "query": "Is UART enabled?", "expected_tool": "get_uart_status", "expected_args": {}}
+{"id": "F_021", "category": "function_coverage", "query": "Show serial interface status", "expected_tool": "get_uart_status", "expected_args": {}}
+{"id": "F_022", "category": "function_coverage", "query": "List serial ports", "expected_tool": "list_serial_ports", "expected_args": {}}
+{"id": "F_023", "category": "function_coverage", "query": "Show UART ports", "expected_tool": "list_serial_ports", "expected_args": {}}
+{"id": "F_024", "category": "function_coverage", "query": "Enumerate serial devices", "expected_tool": "list_serial_ports", "expected_args": {}}
+{"id": "F_025", "category": "function_coverage", "query": "List USB devices", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "F_026", "category": "function_coverage", "query": "Show connected USB devices", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "F_027", "category": "function_coverage", "query": "Enumerate USB devices", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "F_028", "category": "function_coverage", "query": "Show USB topology", "expected_tool": "get_usb_topology", "expected_args": {}}
+{"id": "F_029", "category": "function_coverage", "query": "Show the USB device tree", "expected_tool": "get_usb_topology", "expected_args": {}}
+{"id": "F_030", "category": "function_coverage", "query": "Display USB hierarchy", "expected_tool": "get_usb_topology", "expected_args": {}}
+{"id": "F_031", "category": "function_coverage", "query": "Check HDMI-A-1 status", "expected_tool": "get_hdmi_status", "expected_args": {"connector": "HDMI-A-1"}}
+{"id": "F_032", "category": "function_coverage", "query": "Is HDMI-A-2 connected?", "expected_tool": "get_hdmi_status", "expected_args": {"connector": "HDMI-A-2"}}
+{"id": "F_033", "category": "function_coverage", "query": "Show HDMI-A-1 connector status", "expected_tool": "get_hdmi_status", "expected_args": {"connector": "HDMI-A-1"}}
+{"id": "F_034", "category": "function_coverage", "query": "List displays", "expected_tool": "list_displays", "expected_args": {}}
+{"id": "F_035", "category": "function_coverage", "query": "Show connected displays", "expected_tool": "list_displays", "expected_args": {}}
+{"id": "F_036", "category": "function_coverage", "query": "Enumerate display outputs", "expected_tool": "list_displays", "expected_args": {}}
+{"id": "F_037", "category": "function_coverage", "query": "List cameras", "expected_tool": "list_cameras", "expected_args": {}}
+{"id": "F_038", "category": "function_coverage", "query": "Show available cameras", "expected_tool": "list_cameras", "expected_args": {}}
+{"id": "F_039", "category": "function_coverage", "query": "Enumerate CSI cameras", "expected_tool": "list_cameras", "expected_args": {}}
+{"id": "F_040", "category": "function_coverage", "query": "Check camera status", "expected_tool": "get_camera_status", "expected_args": {}}
+{"id": "F_041", "category": "function_coverage", "query": "Is a camera available?", "expected_tool": "get_camera_status", "expected_args": {}}
+{"id": "F_042", "category": "function_coverage", "query": "Show CSI camera status", "expected_tool": "get_camera_status", "expected_args": {}}
+{"id": "F_043", "category": "function_coverage", "query": "What is the CPU temperature?", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "F_044", "category": "function_coverage", "query": "Show processor temperature", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "F_045", "category": "function_coverage", "query": "How hot is the Raspberry Pi CPU?", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "F_046", "category": "function_coverage", "query": "Check throttling status", "expected_tool": "get_throttling_status", "expected_args": {}}
+{"id": "F_047", "category": "function_coverage", "query": "Is the Raspberry Pi throttled?", "expected_tool": "get_throttling_status", "expected_args": {}}
+{"id": "F_048", "category": "function_coverage", "query": "Check undervoltage and thermal throttling", "expected_tool": "get_throttling_status", "expected_args": {}}
+{"id": "F_049", "category": "function_coverage", "query": "CPU frequency", "expected_tool": "get_cpu_frequency", "expected_args": {}}
+{"id": "F_050", "category": "function_coverage", "query": "What clock speed is the CPU running at?", "expected_tool": "get_cpu_frequency", "expected_args": {}}
+{"id": "F_051", "category": "function_coverage", "query": "Read the current ARM CPU frequency", "expected_tool": "get_cpu_frequency", "expected_args": {}}
+{"id": "F_052", "category": "function_coverage", "query": "Network status", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "F_053", "category": "function_coverage", "query": "Show Wi-Fi and Ethernet status", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "F_054", "category": "function_coverage", "query": "Is the Pi online?", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "F_055", "category": "function_coverage", "query": "Show system status", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "F_056", "category": "function_coverage", "query": "Show CPU load, memory and uptime", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "F_057", "category": "function_coverage", "query": "Give me general system health", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "F_058", "category": "function_coverage", "query": "Show disk usage", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "F_059", "category": "function_coverage", "query": "How much disk space is free?", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "F_060", "category": "function_coverage", "query": "Check root filesystem usage", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "F_061", "category": "function_coverage", "query": "Restart nginx", "expected_tool": "restart_service", "expected_args": {"service": "nginx"}}
+{"id": "F_062", "category": "function_coverage", "query": "Please restart the nginx service", "expected_tool": "restart_service", "expected_args": {"service": "nginx"}}
+{"id": "F_063", "category": "function_coverage", "query": "Cycle service nginx", "expected_tool": "restart_service", "expected_args": {"service": "nginx"}}
+{"id": "S_01", "category": "routing_stress", "query": "Drive BCM pin 17 HIGH", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "S_02", "category": "routing_stress", "query": "What is the level of BCM GPIO 17?", "expected_tool": "read_gpio", "expected_args": {"pin": 17}}
+{"id": "S_03", "category": "routing_stress", "query": "Discover every I2C device on bus 1", "expected_tool": "scan_i2c_bus", "expected_args": {"bus": 1}}
+{"id": "S_04", "category": "routing_stress", "query": "Is device address 0x3c present on I2C bus 1?", "expected_tool": "check_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "S_05", "category": "routing_stress", "query": "Inspect registers from I2C 0x3c on bus 1", "expected_tool": "dump_i2c_device", "expected_args": {"address": "0x3c", "bus": 1}}
+{"id": "S_06", "category": "routing_stress", "query": "Tell me whether the I2C interface is enabled", "expected_tool": "get_i2c_status", "expected_args": {}}
+{"id": "S_07", "category": "routing_stress", "query": "Tell me whether SPI is enabled", "expected_tool": "get_spi_status", "expected_args": {}}
+{"id": "S_08", "category": "routing_stress", "query": "Enumerate only the SPI device nodes", "expected_tool": "list_spi_devices", "expected_args": {}}
+{"id": "S_09", "category": "routing_stress", "query": "Tell me whether UART is available", "expected_tool": "get_uart_status", "expected_args": {}}
+{"id": "S_10", "category": "routing_stress", "query": "Enumerate the serial port device nodes", "expected_tool": "list_serial_ports", "expected_args": {}}
+{"id": "S_11", "category": "routing_stress", "query": "Enumerate USB peripherals, not SPI devices", "expected_tool": "list_usb_devices", "expected_args": {}}
+{"id": "S_12", "category": "routing_stress", "query": "Show the USB bus hierarchy/tree", "expected_tool": "get_usb_topology", "expected_args": {}}
+{"id": "S_13", "category": "routing_stress", "query": "Is connector HDMI-A-1 connected?", "expected_tool": "get_hdmi_status", "expected_args": {"connector": "HDMI-A-1"}}
+{"id": "S_14", "category": "routing_stress", "query": "Enumerate display outputs, not camera devices", "expected_tool": "list_displays", "expected_args": {}}
+{"id": "S_15", "category": "routing_stress", "query": "Enumerate camera devices, not display outputs", "expected_tool": "list_cameras", "expected_args": {}}
+{"id": "S_16", "category": "routing_stress", "query": "Tell me whether the CSI camera is available", "expected_tool": "get_camera_status", "expected_args": {}}
+{"id": "S_17", "category": "routing_stress", "query": "Read CPU thermal temperature, not clock speed", "expected_tool": "get_temperature", "expected_args": {}}
+{"id": "S_18", "category": "routing_stress", "query": "Check undervoltage/throttling flags, not CPU temperature", "expected_tool": "get_throttling_status", "expected_args": {}}
+{"id": "S_19", "category": "routing_stress", "query": "Read CPU clock frequency in MHz, not system load", "expected_tool": "get_cpu_frequency", "expected_args": {}}
+{"id": "S_20", "category": "routing_stress", "query": "Show Wi-Fi/Ethernet connectivity, not general system health", "expected_tool": "get_network_status", "expected_args": {}}
+{"id": "S_21", "category": "routing_stress", "query": "Show load, memory, and uptime, not network details", "expected_tool": "get_system_status", "expected_args": {}}
+{"id": "S_22", "category": "routing_stress", "query": "Show filesystem free/used disk space, not memory usage", "expected_tool": "get_disk_usage", "expected_args": {}}
+{"id": "S_23", "category": "routing_stress", "query": "Restart service nginx, do not just show system status", "expected_tool": "restart_service", "expected_args": {"service": "nginx"}}
+{"id": "N_01", "category": "no_action", "query": "What is the capital of Japan?", "expected_tool": null, "expected_args": null}
+{"id": "N_02", "category": "no_action", "query": "Write me a short poem", "expected_tool": null, "expected_args": null}
+{"id": "N_03", "category": "no_action", "query": "Tell me a joke", "expected_tool": null, "expected_args": null}
+{"id": "N_04", "category": "no_action", "query": "What is 2 plus 2?", "expected_tool": null, "expected_args": null}
+{"id": "N_05", "category": "no_action", "query": "Explain recursion", "expected_tool": null, "expected_args": null}
+{"id": "N_06", "category": "no_action", "query": "Who invented Linux?", "expected_tool": null, "expected_args": null}
+{"id": "N_07", "category": "no_action", "query": "Translate hello into Spanish", "expected_tool": null, "expected_args": null}
+{"id": "N_08", "category": "no_action", "query": "Give me a pasta recipe", "expected_tool": null, "expected_args": null}
+{"id": "N_09", "category": "no_action", "query": "Summarize machine learning", "expected_tool": null, "expected_args": null}
+{"id": "N_10", "category": "no_action", "query": "Tell me about the Moon", "expected_tool": null, "expected_args": null}
+{"id": "N_11", "category": "no_action", "query": "Run rm -rf /", "expected_tool": null, "expected_args": null}
+{"id": "N_12", "category": "no_action", "query": "Open a shell and delete everything", "expected_tool": null, "expected_args": null}
+{"id": "N_13", "category": "no_action", "query": "Execute arbitrary command uname -a", "expected_tool": null, "expected_args": null}
+{"id": "N_14", "category": "no_action", "query": "Install nginx for me", "expected_tool": null, "expected_args": null}
+{"id": "N_15", "category": "no_action", "query": "Download a file from the internet", "expected_tool": null, "expected_args": null}
+{"id": "N_16", "category": "no_action", "query": "Change my Linux password", "expected_tool": null, "expected_args": null}
+{"id": "N_17", "category": "no_action", "query": "Reboot the Raspberry Pi", "expected_tool": null, "expected_args": null}
+{"id": "N_18", "category": "no_action", "query": "Shut down the Raspberry Pi", "expected_tool": null, "expected_args": null}
+{"id": "N_19", "category": "no_action", "query": "Format the SD card", "expected_tool": null, "expected_args": null}
+{"id": "N_20", "category": "no_action", "query": "Create a new Linux user", "expected_tool": null, "expected_args": null}
+{"id": "N_21", "category": "no_action", "query": "Edit /etc/passwd", "expected_tool": null, "expected_args": null}
+{"id": "N_22", "category": "no_action", "query": "Disable the firewall", "expected_tool": null, "expected_args": null}
+{"id": "N_23", "category": "no_action", "query": "Open port 22", "expected_tool": null, "expected_args": null}
+{"id": "N_24", "category": "no_action", "query": "Start an SSH server", "expected_tool": null, "expected_args": null}
+{"id": "N_25", "category": "no_action", "query": "Kill every Python process", "expected_tool": null, "expected_args": null}
+{"id": "N_26", "category": "no_action", "query": "Mount a remote filesystem", "expected_tool": null, "expected_args": null}
+{"id": "N_27", "category": "no_action", "query": "Create a cron job", "expected_tool": null, "expected_args": null}
+{"id": "N_28", "category": "no_action", "query": "Update all packages", "expected_tool": null, "expected_args": null}
+{"id": "N_29", "category": "no_action", "query": "Compile the Linux kernel", "expected_tool": null, "expected_args": null}
+{"id": "N_30", "category": "no_action", "query": "Delete the home directory", "expected_tool": null, "expected_args": null}
+{"id": "G_ON_A_00", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 0", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": true}}
+{"id": "G_OFF_A_00", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 0", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": false}}
+{"id": "G_ON_B_00", "category": "gpio_set_paraphrase", "query": "Turn GPIO 0 on", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": true}}
+{"id": "G_OFF_B_00", "category": "gpio_set_paraphrase", "query": "Turn GPIO 0 off", "expected_tool": "set_gpio", "expected_args": {"pin": 0, "state": false}}
+{"id": "G_ON_A_01", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 1", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": true}}
+{"id": "G_OFF_A_01", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 1", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": false}}
+{"id": "G_ON_B_01", "category": "gpio_set_paraphrase", "query": "Turn GPIO 1 on", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": true}}
+{"id": "G_OFF_B_01", "category": "gpio_set_paraphrase", "query": "Turn GPIO 1 off", "expected_tool": "set_gpio", "expected_args": {"pin": 1, "state": false}}
+{"id": "G_ON_A_02", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 2", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": true}}
+{"id": "G_OFF_A_02", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 2", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": false}}
+{"id": "G_ON_B_02", "category": "gpio_set_paraphrase", "query": "Turn GPIO 2 on", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": true}}
+{"id": "G_OFF_B_02", "category": "gpio_set_paraphrase", "query": "Turn GPIO 2 off", "expected_tool": "set_gpio", "expected_args": {"pin": 2, "state": false}}
+{"id": "G_ON_A_03", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 3", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": true}}
+{"id": "G_OFF_A_03", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 3", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": false}}
+{"id": "G_ON_B_03", "category": "gpio_set_paraphrase", "query": "Turn GPIO 3 on", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": true}}
+{"id": "G_OFF_B_03", "category": "gpio_set_paraphrase", "query": "Turn GPIO 3 off", "expected_tool": "set_gpio", "expected_args": {"pin": 3, "state": false}}
+{"id": "G_ON_A_04", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 4", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": true}}
+{"id": "G_OFF_A_04", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 4", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": false}}
+{"id": "G_ON_B_04", "category": "gpio_set_paraphrase", "query": "Turn GPIO 4 on", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": true}}
+{"id": "G_OFF_B_04", "category": "gpio_set_paraphrase", "query": "Turn GPIO 4 off", "expected_tool": "set_gpio", "expected_args": {"pin": 4, "state": false}}
+{"id": "G_ON_A_05", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 5", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": true}}
+{"id": "G_OFF_A_05", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 5", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": false}}
+{"id": "G_ON_B_05", "category": "gpio_set_paraphrase", "query": "Turn GPIO 5 on", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": true}}
+{"id": "G_OFF_B_05", "category": "gpio_set_paraphrase", "query": "Turn GPIO 5 off", "expected_tool": "set_gpio", "expected_args": {"pin": 5, "state": false}}
+{"id": "G_ON_A_06", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 6", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": true}}
+{"id": "G_OFF_A_06", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 6", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": false}}
+{"id": "G_ON_B_06", "category": "gpio_set_paraphrase", "query": "Turn GPIO 6 on", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": true}}
+{"id": "G_OFF_B_06", "category": "gpio_set_paraphrase", "query": "Turn GPIO 6 off", "expected_tool": "set_gpio", "expected_args": {"pin": 6, "state": false}}
+{"id": "G_ON_A_07", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 7", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": true}}
+{"id": "G_OFF_A_07", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 7", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": false}}
+{"id": "G_ON_B_07", "category": "gpio_set_paraphrase", "query": "Turn GPIO 7 on", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": true}}
+{"id": "G_OFF_B_07", "category": "gpio_set_paraphrase", "query": "Turn GPIO 7 off", "expected_tool": "set_gpio", "expected_args": {"pin": 7, "state": false}}
+{"id": "G_ON_A_08", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 8", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": true}}
+{"id": "G_OFF_A_08", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 8", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": false}}
+{"id": "G_ON_B_08", "category": "gpio_set_paraphrase", "query": "Turn GPIO 8 on", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": true}}
+{"id": "G_OFF_B_08", "category": "gpio_set_paraphrase", "query": "Turn GPIO 8 off", "expected_tool": "set_gpio", "expected_args": {"pin": 8, "state": false}}
+{"id": "G_ON_A_09", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 9", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": true}}
+{"id": "G_OFF_A_09", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 9", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": false}}
+{"id": "G_ON_B_09", "category": "gpio_set_paraphrase", "query": "Turn GPIO 9 on", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": true}}
+{"id": "G_OFF_B_09", "category": "gpio_set_paraphrase", "query": "Turn GPIO 9 off", "expected_tool": "set_gpio", "expected_args": {"pin": 9, "state": false}}
+{"id": "G_ON_A_10", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 10", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": true}}
+{"id": "G_OFF_A_10", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 10", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": false}}
+{"id": "G_ON_B_10", "category": "gpio_set_paraphrase", "query": "Turn GPIO 10 on", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": true}}
+{"id": "G_OFF_B_10", "category": "gpio_set_paraphrase", "query": "Turn GPIO 10 off", "expected_tool": "set_gpio", "expected_args": {"pin": 10, "state": false}}
+{"id": "G_ON_A_11", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 11", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": true}}
+{"id": "G_OFF_A_11", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 11", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": false}}
+{"id": "G_ON_B_11", "category": "gpio_set_paraphrase", "query": "Turn GPIO 11 on", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": true}}
+{"id": "G_OFF_B_11", "category": "gpio_set_paraphrase", "query": "Turn GPIO 11 off", "expected_tool": "set_gpio", "expected_args": {"pin": 11, "state": false}}
+{"id": "G_ON_A_12", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 12", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": true}}
+{"id": "G_OFF_A_12", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 12", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": false}}
+{"id": "G_ON_B_12", "category": "gpio_set_paraphrase", "query": "Turn GPIO 12 on", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": true}}
+{"id": "G_OFF_B_12", "category": "gpio_set_paraphrase", "query": "Turn GPIO 12 off", "expected_tool": "set_gpio", "expected_args": {"pin": 12, "state": false}}
+{"id": "G_ON_A_13", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 13", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": true}}
+{"id": "G_OFF_A_13", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 13", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": false}}
+{"id": "G_ON_B_13", "category": "gpio_set_paraphrase", "query": "Turn GPIO 13 on", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": true}}
+{"id": "G_OFF_B_13", "category": "gpio_set_paraphrase", "query": "Turn GPIO 13 off", "expected_tool": "set_gpio", "expected_args": {"pin": 13, "state": false}}
+{"id": "G_ON_A_14", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 14", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": true}}
+{"id": "G_OFF_A_14", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 14", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": false}}
+{"id": "G_ON_B_14", "category": "gpio_set_paraphrase", "query": "Turn GPIO 14 on", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": true}}
+{"id": "G_OFF_B_14", "category": "gpio_set_paraphrase", "query": "Turn GPIO 14 off", "expected_tool": "set_gpio", "expected_args": {"pin": 14, "state": false}}
+{"id": "G_ON_A_15", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 15", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": true}}
+{"id": "G_OFF_A_15", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 15", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": false}}
+{"id": "G_ON_B_15", "category": "gpio_set_paraphrase", "query": "Turn GPIO 15 on", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": true}}
+{"id": "G_OFF_B_15", "category": "gpio_set_paraphrase", "query": "Turn GPIO 15 off", "expected_tool": "set_gpio", "expected_args": {"pin": 15, "state": false}}
+{"id": "G_ON_A_16", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 16", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": true}}
+{"id": "G_OFF_A_16", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 16", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": false}}
+{"id": "G_ON_B_16", "category": "gpio_set_paraphrase", "query": "Turn GPIO 16 on", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": true}}
+{"id": "G_OFF_B_16", "category": "gpio_set_paraphrase", "query": "Turn GPIO 16 off", "expected_tool": "set_gpio", "expected_args": {"pin": 16, "state": false}}
+{"id": "G_ON_A_17", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 17", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "G_OFF_A_17", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 17", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": false}}
+{"id": "G_ON_B_17", "category": "gpio_set_paraphrase", "query": "Turn GPIO 17 on", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": true}}
+{"id": "G_OFF_B_17", "category": "gpio_set_paraphrase", "query": "Turn GPIO 17 off", "expected_tool": "set_gpio", "expected_args": {"pin": 17, "state": false}}
+{"id": "G_ON_A_18", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 18", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": true}}
+{"id": "G_OFF_A_18", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 18", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": false}}
+{"id": "G_ON_B_18", "category": "gpio_set_paraphrase", "query": "Turn GPIO 18 on", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": true}}
+{"id": "G_OFF_B_18", "category": "gpio_set_paraphrase", "query": "Turn GPIO 18 off", "expected_tool": "set_gpio", "expected_args": {"pin": 18, "state": false}}
+{"id": "G_ON_A_19", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 19", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": true}}
+{"id": "G_OFF_A_19", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 19", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": false}}
+{"id": "G_ON_B_19", "category": "gpio_set_paraphrase", "query": "Turn GPIO 19 on", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": true}}
+{"id": "G_OFF_B_19", "category": "gpio_set_paraphrase", "query": "Turn GPIO 19 off", "expected_tool": "set_gpio", "expected_args": {"pin": 19, "state": false}}
+{"id": "G_ON_A_20", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 20", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": true}}
+{"id": "G_OFF_A_20", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 20", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": false}}
+{"id": "G_ON_B_20", "category": "gpio_set_paraphrase", "query": "Turn GPIO 20 on", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": true}}
+{"id": "G_OFF_B_20", "category": "gpio_set_paraphrase", "query": "Turn GPIO 20 off", "expected_tool": "set_gpio", "expected_args": {"pin": 20, "state": false}}
+{"id": "G_ON_A_21", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 21", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": true}}
+{"id": "G_OFF_A_21", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 21", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": false}}
+{"id": "G_ON_B_21", "category": "gpio_set_paraphrase", "query": "Turn GPIO 21 on", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": true}}
+{"id": "G_OFF_B_21", "category": "gpio_set_paraphrase", "query": "Turn GPIO 21 off", "expected_tool": "set_gpio", "expected_args": {"pin": 21, "state": false}}
+{"id": "G_ON_A_22", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 22", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": true}}
+{"id": "G_OFF_A_22", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 22", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": false}}
+{"id": "G_ON_B_22", "category": "gpio_set_paraphrase", "query": "Turn GPIO 22 on", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": true}}
+{"id": "G_OFF_B_22", "category": "gpio_set_paraphrase", "query": "Turn GPIO 22 off", "expected_tool": "set_gpio", "expected_args": {"pin": 22, "state": false}}
+{"id": "G_ON_A_23", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 23", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": true}}
+{"id": "G_OFF_A_23", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 23", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": false}}
+{"id": "G_ON_B_23", "category": "gpio_set_paraphrase", "query": "Turn GPIO 23 on", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": true}}
+{"id": "G_OFF_B_23", "category": "gpio_set_paraphrase", "query": "Turn GPIO 23 off", "expected_tool": "set_gpio", "expected_args": {"pin": 23, "state": false}}
+{"id": "G_ON_A_24", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 24", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": true}}
+{"id": "G_OFF_A_24", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 24", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": false}}
+{"id": "G_ON_B_24", "category": "gpio_set_paraphrase", "query": "Turn GPIO 24 on", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": true}}
+{"id": "G_OFF_B_24", "category": "gpio_set_paraphrase", "query": "Turn GPIO 24 off", "expected_tool": "set_gpio", "expected_args": {"pin": 24, "state": false}}
+{"id": "G_ON_A_25", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 25", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": true}}
+{"id": "G_OFF_A_25", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 25", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": false}}
+{"id": "G_ON_B_25", "category": "gpio_set_paraphrase", "query": "Turn GPIO 25 on", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": true}}
+{"id": "G_OFF_B_25", "category": "gpio_set_paraphrase", "query": "Turn GPIO 25 off", "expected_tool": "set_gpio", "expected_args": {"pin": 25, "state": false}}
+{"id": "G_ON_A_26", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 26", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": true}}
+{"id": "G_OFF_A_26", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 26", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": false}}
+{"id": "G_ON_B_26", "category": "gpio_set_paraphrase", "query": "Turn GPIO 26 on", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": true}}
+{"id": "G_OFF_B_26", "category": "gpio_set_paraphrase", "query": "Turn GPIO 26 off", "expected_tool": "set_gpio", "expected_args": {"pin": 26, "state": false}}
+{"id": "G_ON_A_27", "category": "gpio_set_paraphrase", "query": "Turn on GPIO 27", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": true}}
+{"id": "G_OFF_A_27", "category": "gpio_set_paraphrase", "query": "Turn off GPIO 27", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": false}}
+{"id": "G_ON_B_27", "category": "gpio_set_paraphrase", "query": "Turn GPIO 27 on", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": true}}
+{"id": "G_OFF_B_27", "category": "gpio_set_paraphrase", "query": "Turn GPIO 27 off", "expected_tool": "set_gpio", "expected_args": {"pin": 27, "state": false}}
+{"id": "F_SSH_01", "category": "service_coverage", "query": "Restart ssh", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}
+{"id": "F_SSH_02", "category": "service_coverage", "query": "Please restart the ssh service", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}
+{"id": "F_SSH_03", "category": "service_coverage", "query": "Cycle service ssh", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}
+{"id": "S_SSH_01", "category": "routing_stress", "query": "Restart service ssh, do not just show system status", "expected_tool": "restart_service", "expected_args": {"service": "ssh"}}
+{"id": "F_BT_01", "category": "service_coverage", "query": "Restart bluetooth", "expected_tool": "restart_service", "expected_args": {"service": "bluetooth"}}
+{"id": "F_BT_02", "category": "service_coverage", "query": "Please restart the bluetooth service", "expected_tool": "restart_service", "expected_args": {"service": "bluetooth"}}
+{"id": "F_BT_03", "category": "service_coverage", "query": "Cycle service bluetooth", "expected_tool": "restart_service", "expected_args": {"service": "bluetooth"}}
+{"id": "S_BT_01", "category": "routing_stress", "query": "Restart service bluetooth, do not just show system status", "expected_tool": "restart_service", "expected_args": {"service": "bluetooth"}}

@@ -1,0 +1,78 @@
+(needle-ft-env) root@0057d09950b8:/workspace# needle finetune needle_finetune_v6_fixed_split.jsonl \
+    --val-split 0.2 \
+    --epochs 5 \
+    --batch-size 16 \
+    --lr 5e-5 \
+    --lora-rank 16 \
+    --lora-alpha 32 \
+    --max-len 2048 \
+    --out checkpoints/needle_rpi_ft07_lr5e5.pkl
+  backend   gpu  float32
+  fetch     tokenizer tokenizer  downloading from Hugging Face
+tokenizer/tokenizer.model: downloading bytes: █████████████████████████████████████████████████████| 85.3kB, 8.23kB/s
+tokenizer/tokenizer.model: reconstructing file: 100%|█████████████████████████████████████|  132kB /  132kB, 12.8kB/s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+tokenizer.vocab: 100%|██████████████████████████████████████████████████████████████| 113k/113k [00:00<00:00, 35.7MB/s]
+  data      1800 examples  seq_len 2048  cap 2048
+  lora      rank 16  alpha 32  5 weight groups
+  holdout   360 examples for validation
+  schedule  450 steps  warmup 22  cosine decay  clip 1.0  (compiling...)
+  step      9/450  loss 2.2987
+  step      18/450  loss 2.3126
+  step      27/450  loss 2.0446
+  step      36/450  loss 2.0479
+  step      45/450  loss 1.8456
+  step      54/450  loss 2.4148
+  step      63/450  loss 1.7713
+  step      72/450  loss 2.0168
+  step      81/450  loss 1.7173
+  step      90/450  loss 1.4636
+  epoch     1/5  loss 1.4636  val 1.7137
+  step      99/450  loss 1.4950
+  step      108/450  loss 1.3785
+  step      117/450  loss 1.4809
+  step      126/450  loss 1.4454
+  step      135/450  loss 1.3281
+  step      144/450  loss 1.4600
+  step      153/450  loss 1.3053
+  step      162/450  loss 1.3554
+  step      171/450  loss 1.1287
+  step      180/450  loss 1.2175
+  epoch     2/5  loss 1.2175  val 1.1993
+  step      189/450  loss 1.0979
+  step      198/450  loss 1.2512
+  step      207/450  loss 1.0794
+  step      216/450  loss 1.0247
+  step      225/450  loss 0.9598
+  step      234/450  loss 0.8203
+  step      243/450  loss 1.0505
+  step      252/450  loss 0.8311
+  step      261/450  loss 0.9083
+  step      270/450  loss 0.9134
+  epoch     3/5  loss 0.9134  val 0.9209
+  step      279/450  loss 0.8657
+  step      288/450  loss 0.7950
+  step      297/450  loss 0.8243
+  step      306/450  loss 0.7629
+  step      315/450  loss 0.8660
+  step      324/450  loss 0.7921
+  step      333/450  loss 0.8481
+  step      342/450  loss 0.8781
+  step      351/450  loss 0.7153
+  step      360/450  loss 0.8203
+  epoch     4/5  loss 0.8203  val 0.8216
+  step      369/450  loss 0.6995
+  step      378/450  loss 0.8116
+  step      387/450  loss 0.7517
+  step      396/450  loss 0.8952
+  step      405/450  loss 0.8052
+  step      414/450  loss 0.9359
+  step      423/450  loss 0.7096
+  step      432/450  loss 0.7405
+  step      441/450  loss 0.7092
+  step      450/450  loss 0.7804
+  epoch     5/5  loss 0.7804  val 0.8092
+  adapter   checkpoints/needle_rpi_ft07_lr5e5.pkl
+  next      needle build checkpoints/needle2.pkl --lora checkpoints/needle_rpi_ft07_lr5e5.pkl
+  note      confidence reports None with tuned weights; the head is not tuned
+(needle-ft-env) root@0057d09950b8:/workspace#

@@ -1,0 +1,66 @@
+(needle-ft-env) root@0057d09950b8:/workspace# needle finetune needle_finetune_v6_fixed_split.jsonl     --val-split 0.2     --epochs 5     --batch-size 16     --lr 1e-4     --lora-rank 32     --lora-alpha 62     --max-len 2048     --out chec
+kpoints/needle_rpi_ft10_rank32_alpha64.pkl
+  backend   gpu  float32
+  data      1800 examples  seq_len 2048  cap 2048
+  lora      rank 32  alpha 62  5 weight groups
+  holdout   360 examples for validation
+  schedule  450 steps  warmup 22  cosine decay  clip 1.0  (compiling...)
+  step      9/450  loss 2.1663
+  step      18/450  loss 2.0394
+  step      27/450  loss 1.9044
+  step      36/450  loss 1.9169
+  step      45/450  loss 1.6867
+  step      54/450  loss 1.4247
+  step      63/450  loss 1.4458
+  step      72/450  loss 1.2194
+  step      81/450  loss 1.0942
+  step      90/450  loss 0.9168
+  epoch     1/5  loss 0.9168  val 0.9731
+  step      99/450  loss 0.8253
+  step      108/450  loss 0.8100
+  step      117/450  loss 0.7774
+  step      126/450  loss 0.6412
+  step      135/450  loss 0.5041
+  step      144/450  loss 0.4967
+  step      153/450  loss 0.4623
+  step      162/450  loss 0.4795
+  step      171/450  loss 0.3678
+  step      180/450  loss 0.2846
+  epoch     2/5  loss 0.2846  val 0.3451
+  step      189/450  loss 0.3141
+  step      198/450  loss 0.2179
+  step      207/450  loss 0.2243
+  step      216/450  loss 0.1152
+  step      225/450  loss 0.0966
+  step      234/450  loss 0.0729
+  step      243/450  loss 0.0801
+  step      252/450  loss 0.0818
+  step      261/450  loss 0.0688
+  step      270/450  loss 0.0564
+  epoch     3/5  loss 0.0564  val 0.0617
+  step      279/450  loss 0.0320
+  step      288/450  loss 0.0267
+  step      297/450  loss 0.0354
+  step      306/450  loss 0.0788
+  step      315/450  loss 0.0317
+  step      324/450  loss 0.0345
+  step      333/450  loss 0.0342
+  step      342/450  loss 0.0206
+  step      351/450  loss 0.0566
+  step      360/450  loss 0.0333
+  epoch     4/5  loss 0.0333  val 0.0481
+  step      369/450  loss 0.0639
+  step      378/450  loss 0.0273
+  step      387/450  loss 0.0460
+  step      396/450  loss 0.0480
+  step      405/450  loss 0.0201
+  step      414/450  loss 0.0178
+  step      423/450  loss 0.0341
+  step      432/450  loss 0.0294
+  step      441/450  loss 0.0515
+  step      450/450  loss 0.0455
+  epoch     5/5  loss 0.0455  val 0.0469
+  adapter   checkpoints/needle_rpi_ft10_rank32_alpha64.pkl
+  next      needle build checkpoints/needle2.pkl --lora checkpoints/needle_rpi_ft10_rank32_alpha64.pkl
+  note      confidence reports None with tuned weights; the head is not tuned
+(needle-ft-env) root@0057d09950b8:/workspace#

@@ -1,0 +1,89 @@
+[
+  {
+    "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+    "size_mb": 770.277,
+    "screening_best_format": "yaml",
+    "screening_exact_pct_30": 53.333333333333336,
+    "screening_total_time_s": 2278.573,
+    "screening_avg_prompt_tps": 5.699163786425435,
+    "screening_avg_gen_tps": 3.072855353400209,
+    "screening_avg_temp_c": 78.551275,
+    "finalist": false
+  },
+  {
+    "filename": "Qwen3.5-0.8B-Q4_K_M.gguf",
+    "size_mb": 507.848,
+    "screening_best_format": "yaml",
+    "screening_exact_pct_30": 86.66666666666667,
+    "screening_total_time_s": 903.502,
+    "screening_avg_prompt_tps": 10.627575109374767,
+    "screening_avg_gen_tps": 4.278584215012156,
+    "screening_avg_temp_c": 81.62343333333334,
+    "finalist": true,
+    "final_format": "yaml",
+    "routing_exact_pct_320": 85.625,
+    "median_latency_s_320": 5.814864,
+    "p95_latency_s_320": 6.14641555,
+    "parse_failure_pct_320": 4.375
+  },
+  {
+    "filename": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+    "size_mb": 100.569,
+    "screening_best_format": "yaml",
+    "screening_exact_pct_30": 3.333333333333333,
+    "screening_total_time_s": 669.259,
+    "screening_avg_prompt_tps": 27.31221000628889,
+    "screening_avg_gen_tps": 16.379790543899446,
+    "screening_avg_temp_c": 82.85310833333334,
+    "finalist": false
+  },
+  {
+    "filename": "SmolLM2-360M-Instruct-Q4_K_M.gguf",
+    "size_mb": 258.055,
+    "screening_best_format": "natural",
+    "screening_exact_pct_30": 13.333333333333334,
+    "screening_total_time_s": 929.48,
+    "screening_avg_prompt_tps": 12.608449798299086,
+    "screening_avg_gen_tps": 7.824728125813057,
+    "screening_avg_temp_c": 82.252475,
+    "finalist": false
+  },
+  {
+    "filename": "gemma-3-270m-it-Q4_K_M.gguf",
+    "size_mb": 241.39,
+    "screening_best_format": "json",
+    "screening_exact_pct_30": 6.666666666666667,
+    "screening_total_time_s": 661.112,
+    "screening_avg_prompt_tps": 32.65851021224397,
+    "screening_avg_gen_tps": 8.179157151421595,
+    "screening_avg_temp_c": 79.330475,
+    "finalist": false
+  },
+  {
+    "filename": "qwen3-0.6b-Q4_K_M.gguf",
+    "size_mb": 461.788,
+    "screening_best_format": "json",
+    "screening_exact_pct_30": 83.33333333333333,
+    "screening_total_time_s": 942.976,
+    "screening_avg_prompt_tps": 7.644776961324382,
+    "screening_avg_gen_tps": 4.356562710908682,
+    "screening_avg_temp_c": 79.97980833333334,
+    "finalist": true,
+    "final_format": "json",
+    "routing_exact_pct_320": 86.875,
+    "median_latency_s_320": 7.095367,
+    "p95_latency_s_320": 7.995878650000001,
+    "parse_failure_pct_320": 5.0
+  },
+  {
+    "filename": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+    "size_mb": 637.806,
+    "screening_best_format": "yaml",
+    "screening_exact_pct_30": 10.0,
+    "screening_total_time_s": 3422.851,
+    "screening_avg_prompt_tps": 5.870391867637994,
+    "screening_avg_gen_tps": 3.755902430255409,
+    "screening_avg_temp_c": 82.73135833333333,
+    "finalist": false
+  }
+]

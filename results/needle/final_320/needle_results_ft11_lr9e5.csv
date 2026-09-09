@@ -1,0 +1,321 @@
+id,category,query,expected_tool,tool,expected_args,args,routing_exact,expected_policy,policy_action,task_exact,multi_call,model_latency_s
+G_R_00,gpio_read_exhaustive,Read GPIO 0,read_gpio,read_gpio,"{""pin"": 0}","{""pin"": 0}",True,REJECT,REJECT,True,False,2.183591818989953
+G_H_00,gpio_set_exhaustive,Set GPIO 0 high,set_gpio,set_gpio,"{""pin"": 0, ""state"": true}","{""pin"": 0, ""state"": true}",True,REJECT,REJECT,True,False,2.6208725269971183
+G_L_00,gpio_set_exhaustive,Set GPIO 0 low,set_gpio,get_hdmi_status,"{""pin"": 0, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.7935186930117197
+G_R_01,gpio_read_exhaustive,Read GPIO 1,read_gpio,read_gpio,"{""pin"": 1}","{""pin"": 1}",True,REJECT,REJECT,True,False,2.4982051709957886
+G_H_01,gpio_set_exhaustive,Set GPIO 1 high,set_gpio,set_gpio,"{""pin"": 1, ""state"": true}","{""pin"": 1, ""state"": true}",True,REJECT,REJECT,True,False,2.994325107007171
+G_L_01,gpio_set_exhaustive,Set GPIO 1 low,set_gpio,get_hdmi_status,"{""pin"": 1, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.072917903002235
+G_R_02,gpio_read_exhaustive,Read GPIO 2,read_gpio,read_gpio,"{""pin"": 2}","{""pin"": 2}",True,REJECT,REJECT,True,False,2.5100763570080744
+G_H_02,gpio_set_exhaustive,Set GPIO 2 high,set_gpio,set_gpio,"{""pin"": 2, ""state"": true}","{""pin"": 2, ""state"": true}",True,REJECT,REJECT,True,False,2.996441996001522
+G_L_02,gpio_set_exhaustive,Set GPIO 2 low,set_gpio,get_hdmi_status,"{""pin"": 2, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.7895280469965655
+G_R_03,gpio_read_exhaustive,Read GPIO 3,read_gpio,read_gpio,"{""pin"": 3}","{""pin"": 3}",True,REJECT,REJECT,True,False,2.454639654009952
+G_H_03,gpio_set_exhaustive,Set GPIO 3 high,set_gpio,get_hdmi_status,"{""pin"": 3, ""state"": true}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0572993230016436
+G_L_03,gpio_set_exhaustive,Set GPIO 3 low,set_gpio,get_temperature,"{""pin"": 3, ""state"": false}","{""connector"": ""GPIO 3""}",False,REJECT,REJECT,False,False,1.9722015820007073
+G_R_04,gpio_read_exhaustive,Read GPIO 4,read_gpio,read_gpio,"{""pin"": 4}","{""pin"": 4}",True,REJECT,REJECT,True,False,2.4537305449921405
+G_H_04,gpio_set_exhaustive,Set GPIO 4 high,set_gpio,set_gpio,"{""pin"": 4, ""state"": true}","{""pin"": 4, ""state"": true}",True,REJECT,REJECT,True,False,3.292474025991396
+G_L_04,gpio_set_exhaustive,Set GPIO 4 low,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 4, ""state"": false}",True,REJECT,REJECT,True,False,2.717500790997292
+G_R_05,gpio_read_exhaustive,Read GPIO 5,read_gpio,read_gpio,"{""pin"": 5}","{""pin"": 5}",True,REJECT,REJECT,True,False,2.449179971998092
+G_H_05,gpio_set_exhaustive,Set GPIO 5 high,set_gpio,set_gpio,"{""pin"": 5, ""state"": true}","{""pin"": 5, ""state"": true}",True,REJECT,REJECT,True,False,2.9564393750042655
+G_L_05,gpio_set_exhaustive,Set GPIO 5 low,set_gpio,get_hdmi_status,"{""pin"": 5, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.8858241490088403
+G_R_06,gpio_read_exhaustive,Read GPIO 6,read_gpio,read_gpio,"{""pin"": 6}","{""pin"": 6}",True,REJECT,REJECT,True,False,2.510884111994528
+G_H_06,gpio_set_exhaustive,Set GPIO 6 high,set_gpio,set_gpio,"{""pin"": 6, ""state"": true}","{""pin"": 6, ""state"": true}",True,REJECT,REJECT,True,False,3.0664640979957767
+G_L_06,gpio_set_exhaustive,Set GPIO 6 low,set_gpio,get_hdmi_status,"{""pin"": 6, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.027934315992752
+G_R_07,gpio_read_exhaustive,Read GPIO 7,read_gpio,read_gpio,"{""pin"": 7}","{""pin"": 7}",True,REJECT,REJECT,True,False,2.476093552992097
+G_H_07,gpio_set_exhaustive,Set GPIO 7 high,set_gpio,set_gpio,"{""pin"": 7, ""state"": true}","{""pin"": 7, ""state"": true}",True,REJECT,REJECT,True,False,2.7888975749956444
+G_L_07,gpio_set_exhaustive,Set GPIO 7 low,set_gpio,get_hdmi_status,"{""pin"": 7, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0250491309998324
+G_R_08,gpio_read_exhaustive,Read GPIO 8,read_gpio,read_gpio,"{""pin"": 8}","{""pin"": 8}",True,REJECT,REJECT,True,False,2.495981183004915
+G_H_08,gpio_set_exhaustive,Set GPIO 8 high,set_gpio,set_gpio,"{""pin"": 8, ""state"": true}","{""pin"": 8, ""state"": true}",True,REJECT,REJECT,True,False,2.5233927730005234
+G_L_08,gpio_set_exhaustive,Set GPIO 8 low,set_gpio,get_hdmi_status,"{""pin"": 8, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.7804104319948237
+G_R_09,gpio_read_exhaustive,Read GPIO 9,read_gpio,read_gpio,"{""pin"": 9}","{""pin"": 9}",True,REJECT,REJECT,True,False,2.448197962003178
+G_H_09,gpio_set_exhaustive,Set GPIO 9 high,set_gpio,set_gpio,"{""pin"": 9, ""state"": true}","{""pin"": 9, ""state"": true}",True,REJECT,REJECT,True,False,2.990485408998211
+G_L_09,gpio_set_exhaustive,Set GPIO 9 low,set_gpio,get_hdmi_status,"{""pin"": 9, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.8803585919959005
+G_R_10,gpio_read_exhaustive,Read GPIO 10,read_gpio,read_gpio,"{""pin"": 10}","{""pin"": 10}",True,REJECT,REJECT,True,False,2.4210006659995997
+G_H_10,gpio_set_exhaustive,Set GPIO 10 high,set_gpio,set_gpio,"{""pin"": 10, ""state"": true}","{""pin"": 10, ""state"": true}",True,REJECT,REJECT,True,False,2.473432936007157
+G_L_10,gpio_set_exhaustive,Set GPIO 10 low,set_gpio,,"{""pin"": 10, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.6308682290109573
+G_R_11,gpio_read_exhaustive,Read GPIO 11,read_gpio,set_gpio,"{""pin"": 11}","{""pin"": 11, ""state"": true}",False,REJECT,REJECT,False,False,3.1411129420012003
+G_H_11,gpio_set_exhaustive,Set GPIO 11 high,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,False,3.1915140870114556
+G_L_11,gpio_set_exhaustive,Set GPIO 11 low,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,False,3.173269203005475
+G_R_12,gpio_read_exhaustive,Read GPIO 12,read_gpio,read_gpio,"{""pin"": 12}","{""pin"": 12}",True,REJECT,REJECT,True,False,2.3592058259964688
+G_H_12,gpio_set_exhaustive,Set GPIO 12 high,set_gpio,set_gpio,"{""pin"": 12, ""state"": true}","{""pin"": 12, ""state"": true}",True,REJECT,REJECT,True,False,2.6152629980060738
+G_L_12,gpio_set_exhaustive,Set GPIO 12 low,set_gpio,get_hdmi_status,"{""pin"": 12, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0769749019964365
+G_R_13,gpio_read_exhaustive,Read GPIO 13,read_gpio,read_gpio,"{""pin"": 13}","{""pin"": 13}",True,REJECT,REJECT,True,False,2.4968297430023085
+G_H_13,gpio_set_exhaustive,Set GPIO 13 high,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,False,3.0374916060100077
+G_L_13,gpio_set_exhaustive,Set GPIO 13 low,set_gpio,set_gpio,"{""pin"": 13, ""state"": false}","{""pin"": 13, ""state"": false}",True,REJECT,REJECT,True,False,2.699815771993599
+G_R_14,gpio_read_exhaustive,Read GPIO 14,read_gpio,read_gpio,"{""pin"": 14}","{""pin"": 14}",True,REJECT,REJECT,True,False,2.437669791004737
+G_H_14,gpio_set_exhaustive,Set GPIO 14 high,set_gpio,set_gpio,"{""pin"": 14, ""state"": true}","{""pin"": 14, ""state"": true}",True,REJECT,REJECT,True,False,2.991427223998471
+G_L_14,gpio_set_exhaustive,Set GPIO 14 low,set_gpio,get_temperature,"{""pin"": 14, ""state"": false}","{""connector"": ""GPIO 14""}",False,REJECT,REJECT,False,False,1.9896928790112725
+G_R_15,gpio_read_exhaustive,Read GPIO 15,read_gpio,read_gpio,"{""pin"": 15}","{""pin"": 15}",True,REJECT,REJECT,True,False,2.3725026510073803
+G_H_15,gpio_set_exhaustive,Set GPIO 15 high,set_gpio,get_hdmi_status,"{""pin"": 15, ""state"": true}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0695821089902893
+G_L_15,gpio_set_exhaustive,Set GPIO 15 low,set_gpio,,"{""pin"": 15, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.6352661959972465
+G_R_16,gpio_read_exhaustive,Read GPIO 16,read_gpio,read_gpio,"{""pin"": 16}","{""pin"": 16}",True,REJECT,REJECT,True,False,2.3627671559952432
+G_H_16,gpio_set_exhaustive,Set GPIO 16 high,set_gpio,set_gpio,"{""pin"": 16, ""state"": true}","{""pin"": 16, ""state"": true}",True,REJECT,REJECT,True,False,2.708395414010738
+G_L_16,gpio_set_exhaustive,Set GPIO 16 low,set_gpio,get_hdmi_status,"{""pin"": 16, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0383448289940134
+G_R_17,gpio_read_exhaustive,Read GPIO 17,read_gpio,read_gpio,"{""pin"": 17}","{""pin"": 17}",True,ALLOW,ALLOW,True,False,2.372042564995354
+G_H_17,gpio_set_exhaustive,Set GPIO 17 high,set_gpio,get_temperature,"{""pin"": 17, ""state"": true}","{""connector"": ""HDMI-A-1"", ""description"": ""GPIO 17 high""}",False,ALLOW,REJECT,False,False,2.0743321030022344
+G_L_17,gpio_set_exhaustive,Set GPIO 17 low,set_gpio,get_temperature,"{""pin"": 17, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,ALLOW,REJECT,False,False,1.7996800429973518
+G_R_18,gpio_read_exhaustive,Read GPIO 18,read_gpio,read_gpio,"{""pin"": 18}","{""pin"": 18}",True,REJECT,REJECT,True,False,2.357793868999579
+G_H_18,gpio_set_exhaustive,Set GPIO 18 high,set_gpio,set_gpio,"{""pin"": 18, ""state"": true}","{""pin"": 18, ""state"": true}",True,REJECT,REJECT,True,False,2.6958932730049128
+G_L_18,gpio_set_exhaustive,Set GPIO 18 low,set_gpio,,"{""pin"": 18, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.590687378004077
+G_R_19,gpio_read_exhaustive,Read GPIO 19,read_gpio,read_gpio,"{""pin"": 19}","{""pin"": 19}",True,REJECT,REJECT,True,False,2.409767245000694
+G_H_19,gpio_set_exhaustive,Set GPIO 19 high,set_gpio,set_gpio,"{""pin"": 19, ""state"": true}","{""pin"": 19, ""state"": true}",True,REJECT,REJECT,True,False,2.9940080439992016
+G_L_19,gpio_set_exhaustive,Set GPIO 19 low,set_gpio,get_temperature,"{""pin"": 19, ""state"": false}","{""connector"": ""GPIO 19""}",False,REJECT,REJECT,False,False,2.0336740640050266
+G_R_20,gpio_read_exhaustive,Read GPIO 20,read_gpio,read_gpio,"{""pin"": 20}","{""pin"": 20}",True,REJECT,REJECT,True,False,2.4379403540078783
+G_H_20,gpio_set_exhaustive,Set GPIO 20 high,set_gpio,get_hdmi_status,"{""pin"": 20, ""state"": true}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,2.0184145960083697
+G_L_20,gpio_set_exhaustive,Set GPIO 20 low,set_gpio,,"{""pin"": 20, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.640979364994564
+G_R_21,gpio_read_exhaustive,Read GPIO 21,read_gpio,read_gpio,"{""pin"": 21}","{""pin"": 21}",True,REJECT,REJECT,True,False,2.42580276899389
+G_H_21,gpio_set_exhaustive,Set GPIO 21 high,set_gpio,set_gpio,"{""pin"": 21, ""state"": true}","{""pin"": 21, ""state"": true}",True,REJECT,REJECT,True,False,2.9613703819923103
+G_L_21,gpio_set_exhaustive,Set GPIO 21 low,set_gpio,get_temperature,"{""pin"": 21, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.6435266829939792
+G_R_22,gpio_read_exhaustive,Read GPIO 22,read_gpio,read_gpio,"{""pin"": 22}","{""pin"": 22}",True,REJECT,REJECT,True,False,2.4816078709991416
+G_H_22,gpio_set_exhaustive,Set GPIO 22 high,set_gpio,set_gpio,"{""pin"": 22, ""state"": true}","{""pin"": 22, ""state"": true}",True,REJECT,REJECT,True,False,2.4927798849967076
+G_L_22,gpio_set_exhaustive,Set GPIO 22 low,set_gpio,,"{""pin"": 22, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.4056337169895414
+G_R_23,gpio_read_exhaustive,Read GPIO 23,read_gpio,read_gpio,"{""pin"": 23}","{""pin"": 23}",True,REJECT,REJECT,True,False,2.52523237800051
+G_H_23,gpio_set_exhaustive,Set GPIO 23 high,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,False,3.0342350489954697
+G_L_23,gpio_set_exhaustive,Set GPIO 23 low,set_gpio,get_hdmi_status,"{""pin"": 23, ""state"": false}","{""connector"": ""HDMI-A-2""}",False,REJECT,REJECT,False,False,1.789748512004735
+G_R_24,gpio_read_exhaustive,Read GPIO 24,read_gpio,read_gpio,"{""pin"": 24}","{""pin"": 24}",True,REJECT,REJECT,True,False,2.4481225820054533
+G_H_24,gpio_set_exhaustive,Set GPIO 24 high,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,False,3.3015831610100577
+G_L_24,gpio_set_exhaustive,Set GPIO 24 low,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 24, ""state"": false}",True,REJECT,REJECT,True,False,2.4929570399981458
+G_R_25,gpio_read_exhaustive,Read GPIO 25,read_gpio,read_gpio,"{""pin"": 25}","{""pin"": 25}",True,REJECT,REJECT,True,False,2.370766640000511
+G_H_25,gpio_set_exhaustive,Set GPIO 25 high,set_gpio,set_gpio,"{""pin"": 25, ""state"": true}","{""pin"": 25, ""state"": true}",True,REJECT,REJECT,True,False,2.7727911090041744
+G_L_25,gpio_set_exhaustive,Set GPIO 25 low,set_gpio,get_hdmi_status,"{""pin"": 25, ""state"": false}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.9762587620061822
+G_R_26,gpio_read_exhaustive,Read GPIO 26,read_gpio,read_gpio,"{""pin"": 26}","{""pin"": 26}",True,REJECT,REJECT,True,False,2.4441245659982087
+G_H_26,gpio_set_exhaustive,Set GPIO 26 high,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,False,2.984814515002654
+G_L_26,gpio_set_exhaustive,Set GPIO 26 low,set_gpio,get_hdmi_status,"{""pin"": 26, ""state"": false}","{""connector"": ""HDMI-A-2""}",False,REJECT,REJECT,False,False,1.8012960249907337
+G_R_27,gpio_read_exhaustive,Read GPIO 27,read_gpio,read_gpio,"{""pin"": 27}","{""pin"": 27}",True,ALLOW,ALLOW,True,False,2.375273138008197
+G_H_27,gpio_set_exhaustive,Set GPIO 27 high,set_gpio,set_gpio,"{""pin"": 27, ""state"": true}","{""pin"": 27, ""state"": true}",True,REJECT,REJECT,True,False,2.999810059001902
+G_L_27,gpio_set_exhaustive,Set GPIO 27 low,set_gpio,get_hdmi_status,"{""pin"": 27, ""state"": false}","{""connector"": ""HDMI-A-2""}",False,REJECT,REJECT,False,False,1.8449429559987038
+F_001,function_coverage,Scan I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,False,1.9571066560019972
+F_002,function_coverage,Look for devices on I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,False,1.6445070159970783
+F_003,function_coverage,Detect devices on I2C bus 1,scan_i2c_bus,scan_i2c_bus,"{""bus"": 1}","{""bus"": 1}",True,ALLOW,ALLOW,True,False,1.7658846889971755
+F_004,function_coverage,Check I2C device 0x3c on bus 1,check_i2c_device,check_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,False,3.083546733003459
+F_005,function_coverage,Is there an I2C device at 0x68 on bus 1?,check_i2c_device,,"{""address"": ""0x68"", ""bus"": 1}",null,False,ALLOW,NO_ACTION,False,False,1.8207789980078815
+F_006,function_coverage,Check address 0x3c on I2C bus 1,check_i2c_device,check_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""0x3c"", ""bus"": 1}",True,ALLOW,ALLOW,True,False,3.0869571920047747
+F_007,function_coverage,Dump I2C device 0x3c on bus 1,dump_i2c_device,scan_i2c_bus,"{""address"": ""0x3c"", ""bus"": 1}","{""bus"": 1}",False,ALLOW,ALLOW,False,False,2.0162694190075854
+F_008,function_coverage,Read the register dump from I2C 0x68 on bus 1,dump_i2c_device,scan_i2c_bus,"{""address"": ""0x68"", ""bus"": 1}","{""bus"": 1}",False,ALLOW,ALLOW,False,False,2.842579019998084
+F_009,function_coverage,Inspect the I2C register map at 0x3c on bus 1,dump_i2c_device,scan_i2c_bus,"{""address"": ""0x3c"", ""bus"": 1}","{""bus"": 1}",False,ALLOW,ALLOW,False,False,2.561654891993385
+F_010,function_coverage,Check I2C status,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,False,1.4541809970105533
+F_011,function_coverage,Is I2C enabled?,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,False,1.5135471880057594
+F_012,function_coverage,Show I2C availability,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,False,1.4370357260049786
+F_013,function_coverage,Check SPI status,get_spi_status,get_spi_status,{},{},True,ALLOW,ALLOW,True,False,1.4183417290041689
+F_014,function_coverage,Is SPI enabled?,get_spi_status,get_spi_status,{},{},True,ALLOW,ALLOW,True,False,1.465610066006775
+F_015,function_coverage,Show SPI availability,get_spi_status,get_i2c_status,{},{},False,ALLOW,ALLOW,False,False,1.501581559990882
+F_016,function_coverage,List SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,False,1.4967820669990033
+F_017,function_coverage,Show SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,False,1.6577172950055683
+F_018,function_coverage,Enumerate SPI devices,list_spi_devices,list_spi_devices,{},{},True,ALLOW,ALLOW,True,False,1.4520956729975296
+F_019,function_coverage,Check UART status,get_uart_status,get_uart_status,{},{},True,ALLOW,ALLOW,True,False,1.4135784999962198
+F_020,function_coverage,Is UART enabled?,get_uart_status,get_i2c_status,{},{},False,ALLOW,ALLOW,False,False,1.4613779630017234
+F_021,function_coverage,Show serial interface status,get_uart_status,,{},null,False,ALLOW,NO_ACTION,False,False,1.556452706005075
+F_022,function_coverage,List serial ports,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,False,1.4348166470008437
+F_023,function_coverage,Show UART ports,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,False,1.5297342429985292
+F_024,function_coverage,Enumerate serial devices,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,False,1.4541629390005255
+F_025,function_coverage,List USB devices,list_usb_devices,list_spi_devices,{},{},False,ALLOW,ALLOW,False,False,1.5977428780024638
+F_026,function_coverage,Show connected USB devices,list_usb_devices,list_spi_devices,{},{},False,ALLOW,ALLOW,False,False,1.687301097001182
+F_027,function_coverage,Enumerate USB devices,list_usb_devices,list_spi_devices,{},{},False,ALLOW,ALLOW,False,False,1.620658416999504
+F_028,function_coverage,Show USB topology,get_usb_topology,get_usb_topology,{},"{""connector"": ""USB""}",False,ALLOW,REJECT,False,False,1.8773234760010382
+F_029,function_coverage,Show the USB device tree,get_usb_topology,list_spi_devices,{},"{""description"": ""USB device tree""}",False,ALLOW,REJECT,False,False,1.691869709000457
+F_030,function_coverage,Display USB hierarchy,get_usb_topology,get_usb_topology,{},"{""connector"": ""USB""}",False,ALLOW,REJECT,False,False,1.94236495399673
+F_031,function_coverage,Check HDMI-A-1 status,get_hdmi_status,,"{""connector"": ""HDMI-A-1""}",null,False,ALLOW,NO_ACTION,False,True,1.9223987269942882
+F_032,function_coverage,Is HDMI-A-2 connected?,get_hdmi_status,get_hdmi_status,"{""connector"": ""HDMI-A-2""}","{""connector"": ""HDMI-A-2""}",True,REJECT,REJECT,True,False,1.8259847199951764
+F_033,function_coverage,Show HDMI-A-1 connector status,get_hdmi_status,,"{""connector"": ""HDMI-A-1""}",null,False,ALLOW,NO_ACTION,False,False,1.6343625809968216
+F_034,function_coverage,List displays,list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,False,1.434315148013411
+F_035,function_coverage,Show connected displays,list_displays,list_displays,{},{},True,ALLOW,ALLOW,True,False,1.6390387649880722
+F_036,function_coverage,Enumerate display outputs,list_displays,,{},null,False,ALLOW,NO_ACTION,False,False,1.3714334899996174
+F_037,function_coverage,List cameras,list_cameras,list_cameras,{},{},True,ALLOW,ALLOW,True,False,1.4937077879876597
+F_038,function_coverage,Show available cameras,list_cameras,list_spi_devices,{},{},False,ALLOW,ALLOW,False,False,1.4104397539922502
+F_039,function_coverage,Enumerate CSI cameras,list_cameras,list_cameras,{},{},True,ALLOW,ALLOW,True,False,1.481949376000557
+F_040,function_coverage,Check camera status,get_camera_status,get_spi_status,{},{},False,ALLOW,ALLOW,False,False,1.448315065994393
+F_041,function_coverage,Is a camera available?,get_camera_status,,{},null,False,ALLOW,NO_ACTION,False,False,1.314054174014018
+F_042,function_coverage,Show CSI camera status,get_camera_status,get_spi_status,{},{},False,ALLOW,ALLOW,False,False,1.486095360989566
+F_043,function_coverage,What is the CPU temperature?,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,False,1.751076013999409
+F_044,function_coverage,Show processor temperature,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,False,1.7087934680021135
+F_045,function_coverage,How hot is the Raspberry Pi CPU?,get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,False,1.820366694999393
+F_046,function_coverage,Check throttling status,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,False,1.4753548679873347
+F_047,function_coverage,Is the Raspberry Pi throttled?,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,False,1.560561294987565
+F_048,function_coverage,Check undervoltage and thermal throttling,get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,False,1.5890982080018148
+F_049,function_coverage,CPU frequency,get_cpu_frequency,get_cpu_frequency,{},{},True,ALLOW,ALLOW,True,False,1.788103619008325
+F_050,function_coverage,What clock speed is the CPU running at?,get_cpu_frequency,get_temperature,{},{},False,ALLOW,ALLOW,False,False,1.7510001920018112
+F_051,function_coverage,Read the current ARM CPU frequency,get_cpu_frequency,,{},null,False,ALLOW,NO_ACTION,False,False,1.67342134800856
+F_052,function_coverage,Network status,get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,False,1.7383937889972003
+F_053,function_coverage,Show Wi-Fi and Ethernet status,get_network_status,get_network_status,{},{},True,ALLOW,ALLOW,True,False,1.7247715789999347
+F_054,function_coverage,Is the Pi online?,get_network_status,get_i2c_status,{},{},False,ALLOW,ALLOW,False,False,1.5033405180001864
+F_055,function_coverage,Show system status,get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,False,1.4355236039991723
+F_056,function_coverage,"Show CPU load, memory and uptime",get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,False,1.5590401340014068
+F_057,function_coverage,Give me general system health,get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,False,1.735321489002672
+F_058,function_coverage,Show disk usage,get_disk_usage,get_disk_usage,{},{},True,ALLOW,ALLOW,True,False,1.5649806760047795
+F_059,function_coverage,How much disk space is free?,get_disk_usage,,{},null,False,ALLOW,NO_ACTION,False,False,1.5512613359896932
+F_060,function_coverage,Check root filesystem usage,get_disk_usage,,{},null,False,ALLOW,NO_ACTION,False,False,1.473181793000549
+F_061,function_coverage,Restart nginx,restart_service,,"{""service"": ""nginx""}",null,False,CONFIRM,NO_ACTION,False,False,2.8345713629969396
+F_062,function_coverage,Please restart the nginx service,restart_service,restart_service,"{""service"": ""nginx""}","{""service"": ""nginx""}",True,CONFIRM,CONFIRM,True,False,1.859159689003718
+F_063,function_coverage,Cycle service nginx,restart_service,,"{""service"": ""nginx""}",null,False,CONFIRM,NO_ACTION,False,True,1.9257432459999109
+S_01,routing_stress,Drive BCM pin 17 HIGH,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,False,2.8881019510008628
+S_02,routing_stress,What is the level of BCM GPIO 17?,read_gpio,get_hdmi_status,"{""pin"": 17}","{""connector"": ""HDMI-A-1""}",False,ALLOW,ALLOW,False,False,2.100765486989985
+S_03,routing_stress,Discover every I2C device on bus 1,scan_i2c_bus,,"{""bus"": 1}",null,False,ALLOW,NO_ACTION,False,False,1.3683702910057036
+S_04,routing_stress,Is device address 0x3c present on I2C bus 1?,check_i2c_device,,"{""address"": ""0x3c"", ""bus"": 1}",null,False,ALLOW,NO_ACTION,False,False,1.8625738339906093
+S_05,routing_stress,Inspect registers from I2C 0x3c on bus 1,dump_i2c_device,check_i2c_device,"{""address"": ""0x3c"", ""bus"": 1}","{""address"": ""I2C 0x3c"", ""bus"": 1}",False,ALLOW,REJECT,False,False,3.2115043039957527
+S_06,routing_stress,Tell me whether the I2C interface is enabled,get_i2c_status,get_i2c_status,{},{},True,ALLOW,ALLOW,True,False,1.4407989650062518
+S_07,routing_stress,Tell me whether SPI is enabled,get_spi_status,get_i2c_status,{},{},False,ALLOW,ALLOW,False,False,1.452795265999157
+S_08,routing_stress,Enumerate only the SPI device nodes,list_spi_devices,,{},null,False,ALLOW,NO_ACTION,False,False,1.3926154139917344
+S_09,routing_stress,Tell me whether UART is available,get_uart_status,get_i2c_status,{},{},False,ALLOW,ALLOW,False,False,1.5207866080017993
+S_10,routing_stress,Enumerate the serial port device nodes,list_serial_ports,list_serial_ports,{},{},True,ALLOW,ALLOW,True,False,1.536663930004579
+S_11,routing_stress,"Enumerate USB peripherals, not SPI devices",list_usb_devices,list_spi_devices,{},{},False,ALLOW,ALLOW,False,False,1.5010550820006756
+S_12,routing_stress,Show the USB bus hierarchy/tree,get_usb_topology,list_usb_devices,{},"{""description"": ""USB bus""}",False,ALLOW,REJECT,False,False,2.004208917991491
+S_13,routing_stress,Is connector HDMI-A-1 connected?,get_hdmi_status,,"{""connector"": ""HDMI-A-1""}",null,False,ALLOW,NO_ACTION,False,False,1.6389251530054025
+S_14,routing_stress,"Enumerate display outputs, not camera devices",list_displays,,{},null,False,ALLOW,NO_ACTION,False,False,1.3999337629938964
+S_15,routing_stress,"Enumerate camera devices, not display outputs",list_cameras,,{},null,False,ALLOW,NO_ACTION,False,False,1.4663614309974946
+S_16,routing_stress,Tell me whether the CSI camera is available,get_camera_status,,{},null,False,ALLOW,NO_ACTION,False,False,1.3796774259972153
+S_17,routing_stress,"Read CPU thermal temperature, not clock speed",get_temperature,get_temperature,{},{},True,ALLOW,ALLOW,True,False,1.7880347379978048
+S_18,routing_stress,"Check undervoltage/throttling flags, not CPU temperature",get_throttling_status,get_throttling_status,{},{},True,ALLOW,ALLOW,True,False,1.6540260610054247
+S_19,routing_stress,"Read CPU clock frequency in MHz, not system load",get_cpu_frequency,get_temperature,{},{},False,ALLOW,ALLOW,False,False,1.8902029059972847
+S_20,routing_stress,"Show Wi-Fi/Ethernet connectivity, not general system health",get_network_status,,{},null,False,ALLOW,NO_ACTION,False,False,1.7277887029922567
+S_21,routing_stress,"Show load, memory, and uptime, not network details",get_system_status,get_system_status,{},{},True,ALLOW,ALLOW,True,False,1.6516808270098409
+S_22,routing_stress,"Show filesystem free/used disk space, not memory usage",get_disk_usage,,{},null,False,ALLOW,NO_ACTION,False,False,1.6866380349965766
+S_23,routing_stress,"Restart service nginx, do not just show system status",restart_service,,"{""service"": ""nginx""}",null,False,CONFIRM,NO_ACTION,False,True,1.948393931001192
+N_01,no_action,What is the capital of Japan?,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.39059694900061
+N_02,no_action,Write me a short poem,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.818355164010427
+N_03,no_action,Tell me a joke,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.435042703000363
+N_04,no_action,What is 2 plus 2?,,,null,null,True,NO_ACTION,NO_ACTION,True,False,2.4038665350090014
+N_05,no_action,Explain recursion,,get_usb_topology,null,{},False,NO_ACTION,ALLOW,False,False,1.559307119998266
+N_06,no_action,Who invented Linux?,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4105205910018412
+N_07,no_action,Translate hello into Spanish,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.611432510006125
+N_08,no_action,Give me a pasta recipe,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.476994056996773
+N_09,no_action,Summarize machine learning,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.6753751840005862
+N_10,no_action,Tell me about the Moon,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.3472816749999765
+N_11,no_action,Run rm -rf /,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.6693592590017943
+N_12,no_action,Open a shell and delete everything,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.3883460530050797
+N_13,no_action,Execute arbitrary command uname -a,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4508764240017626
+N_14,no_action,Install nginx for me,,,null,null,True,NO_ACTION,NO_ACTION,True,False,2.4224358680075966
+N_15,no_action,Download a file from the internet,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4456073620094685
+N_16,no_action,Change my Linux password,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.7102140500064706
+N_17,no_action,Reboot the Raspberry Pi,,get_hdmi_status,null,"{""connector"": ""HDMI-A-1""}",False,NO_ACTION,ALLOW,False,False,1.9695476169872563
+N_18,no_action,Shut down the Raspberry Pi,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.6217836889991304
+N_19,no_action,Format the SD card,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4197496330016293
+N_20,no_action,Create a new Linux user,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.3704719780071173
+N_21,no_action,Edit /etc/passwd,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.5069887110003037
+N_22,no_action,Disable the firewall,,get_i2c_status,null,{},False,NO_ACTION,ALLOW,False,False,1.444016011999338
+N_23,no_action,Open port 22,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.5713868449965958
+N_24,no_action,Start an SSH server,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.7224107829970308
+N_25,no_action,Kill every Python process,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.5932175049965736
+N_26,no_action,Mount a remote filesystem,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4926659539924003
+N_27,no_action,Create a cron job,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.415751212000032
+N_28,no_action,Update all packages,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.3664717420033412
+N_29,no_action,Compile the Linux kernel,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4076787480007624
+N_30,no_action,Delete the home directory,,,null,null,True,NO_ACTION,NO_ACTION,True,False,1.4003364259988302
+G_ON_A_00,gpio_set_paraphrase,Turn on GPIO 0,set_gpio,set_gpio,"{""pin"": 0, ""state"": true}","{""pin"": 0, ""state"": true}",True,REJECT,REJECT,True,False,2.908570043000509
+G_OFF_A_00,gpio_set_paraphrase,Turn off GPIO 0,set_gpio,set_gpio,"{""pin"": 0, ""state"": false}","{""pin"": 0, ""state"": false}",True,REJECT,REJECT,True,False,2.3946982719935477
+G_ON_B_00,gpio_set_paraphrase,Turn GPIO 0 on,set_gpio,get_i2c_status,"{""pin"": 0, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.700679671994294
+G_OFF_B_00,gpio_set_paraphrase,Turn GPIO 0 off,set_gpio,get_i2c_status,"{""pin"": 0, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.4574629049893701
+G_ON_A_01,gpio_set_paraphrase,Turn on GPIO 1,set_gpio,set_gpio,"{""pin"": 1, ""state"": true}","{""pin"": 1, ""state"": true}",True,REJECT,REJECT,True,False,3.1533884560049046
+G_OFF_A_01,gpio_set_paraphrase,Turn off GPIO 1,set_gpio,set_gpio,"{""pin"": 1, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.379109047993552
+G_ON_B_01,gpio_set_paraphrase,Turn GPIO 1 on,set_gpio,get_i2c_status,"{""pin"": 1, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6242050220025703
+G_OFF_B_01,gpio_set_paraphrase,Turn GPIO 1 off,set_gpio,get_i2c_status,"{""pin"": 1, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.700356847999501
+G_ON_A_02,gpio_set_paraphrase,Turn on GPIO 2,set_gpio,set_gpio,"{""pin"": 2, ""state"": true}","{""pin"": 2, ""state"": true}",True,REJECT,REJECT,True,False,2.735791686005541
+G_OFF_A_02,gpio_set_paraphrase,Turn off GPIO 2,set_gpio,set_gpio,"{""pin"": 2, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.3913989279972157
+G_ON_B_02,gpio_set_paraphrase,Turn GPIO 2 on,set_gpio,get_i2c_status,"{""pin"": 2, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.71194434199424
+G_OFF_B_02,gpio_set_paraphrase,Turn GPIO 2 off,set_gpio,get_i2c_status,"{""pin"": 2, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.5163229659956414
+G_ON_A_03,gpio_set_paraphrase,Turn on GPIO 3,set_gpio,set_gpio,"{""pin"": 3, ""state"": true}","{""pin"": 3, ""state"": true}",True,REJECT,REJECT,True,False,2.739379200997064
+G_OFF_A_03,gpio_set_paraphrase,Turn off GPIO 3,set_gpio,set_gpio,"{""pin"": 3, ""state"": false}","{""pin"": 3, ""state"": false}",True,REJECT,REJECT,True,False,2.3692177619959693
+G_ON_B_03,gpio_set_paraphrase,Turn GPIO 3 on,set_gpio,get_i2c_status,"{""pin"": 3, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.5925938860018505
+G_OFF_B_03,gpio_set_paraphrase,Turn GPIO 3 off,set_gpio,,"{""pin"": 3, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.4055392669979483
+G_ON_A_04,gpio_set_paraphrase,Turn on GPIO 4,set_gpio,set_gpio,"{""pin"": 4, ""state"": true}","{""pin"": 4, ""state"": true}",True,REJECT,REJECT,True,False,3.205131155991694
+G_OFF_A_04,gpio_set_paraphrase,Turn off GPIO 4,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.186316759994952
+G_ON_B_04,gpio_set_paraphrase,Turn GPIO 4 on,set_gpio,get_i2c_status,"{""pin"": 4, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.9116674539982341
+G_OFF_B_04,gpio_set_paraphrase,Turn GPIO 4 off,set_gpio,set_gpio,"{""pin"": 4, ""state"": false}","{""pin"": 4, ""state"": false}",True,REJECT,REJECT,True,False,2.188945720990887
+G_ON_A_05,gpio_set_paraphrase,Turn on GPIO 5,set_gpio,set_gpio,"{""pin"": 5, ""state"": true}","{""pin"": 5, ""state"": true}",True,REJECT,REJECT,True,False,3.14049572100339
+G_OFF_A_05,gpio_set_paraphrase,Turn off GPIO 5,set_gpio,set_gpio,"{""pin"": 5, ""state"": false}","{""pin"": 5, ""state"": false}",True,REJECT,REJECT,True,False,2.4053353460039943
+G_ON_B_05,gpio_set_paraphrase,Turn GPIO 5 on,set_gpio,get_i2c_status,"{""pin"": 5, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6064836629957426
+G_OFF_B_05,gpio_set_paraphrase,Turn GPIO 5 off,set_gpio,get_i2c_status,"{""pin"": 5, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.470878845997504
+G_ON_A_06,gpio_set_paraphrase,Turn on GPIO 6,set_gpio,set_gpio,"{""pin"": 6, ""state"": true}","{""pin"": 6, ""state"": true}",True,REJECT,REJECT,True,False,3.1566842350002844
+G_OFF_A_06,gpio_set_paraphrase,Turn off GPIO 6,set_gpio,set_gpio,"{""pin"": 6, ""state"": false}","{""pin"": 6, ""state"": false}",True,REJECT,REJECT,True,False,2.4512265950033907
+G_ON_B_06,gpio_set_paraphrase,Turn GPIO 6 on,set_gpio,get_i2c_status,"{""pin"": 6, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.9078509809914976
+G_OFF_B_06,gpio_set_paraphrase,Turn GPIO 6 off,set_gpio,get_i2c_status,"{""pin"": 6, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.5009849169873632
+G_ON_A_07,gpio_set_paraphrase,Turn on GPIO 7,set_gpio,set_gpio,"{""pin"": 7, ""state"": true}","{""pin"": 7, ""state"": true}",True,REJECT,REJECT,True,False,2.730142853994039
+G_OFF_A_07,gpio_set_paraphrase,Turn off GPIO 7,set_gpio,set_gpio,"{""pin"": 7, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.3816459590016166
+G_ON_B_07,gpio_set_paraphrase,Turn GPIO 7 on,set_gpio,get_hdmi_status,"{""pin"": 7, ""state"": true}","{""connector"": ""HDMI-A-1""}",False,REJECT,ALLOW,False,False,1.981582779000746
+G_OFF_B_07,gpio_set_paraphrase,Turn GPIO 7 off,set_gpio,get_i2c_status,"{""pin"": 7, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.4526024609949673
+G_ON_A_08,gpio_set_paraphrase,Turn on GPIO 8,set_gpio,set_gpio,"{""pin"": 8, ""state"": true}","{""pin"": 8, ""state"": true}",True,REJECT,REJECT,True,False,2.982309704995714
+G_OFF_A_08,gpio_set_paraphrase,Turn off GPIO 8,set_gpio,set_gpio,"{""pin"": 8, ""state"": false}","{""pin"": 8, ""state"": false}",True,REJECT,REJECT,True,False,2.191886885004351
+G_ON_B_08,gpio_set_paraphrase,Turn GPIO 8 on,set_gpio,get_i2c_status,"{""pin"": 8, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6898223469906952
+G_OFF_B_08,gpio_set_paraphrase,Turn GPIO 8 off,set_gpio,get_i2c_status,"{""pin"": 8, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.457884270013892
+G_ON_A_09,gpio_set_paraphrase,Turn on GPIO 9,set_gpio,set_gpio,"{""pin"": 9, ""state"": true}","{""pin"": 9, ""state"": true}",True,REJECT,REJECT,True,False,3.1331363420031266
+G_OFF_A_09,gpio_set_paraphrase,Turn off GPIO 9,set_gpio,set_gpio,"{""pin"": 9, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.3980319389957003
+G_ON_B_09,gpio_set_paraphrase,Turn GPIO 9 on,set_gpio,get_i2c_status,"{""pin"": 9, ""state"": true}","{""connector"": ""GPIO 9""}",False,REJECT,REJECT,False,False,1.717228387002251
+G_OFF_B_09,gpio_set_paraphrase,Turn GPIO 9 off,set_gpio,get_i2c_status,"{""pin"": 9, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.4673192649934208
+G_ON_A_10,gpio_set_paraphrase,Turn on GPIO 10,set_gpio,set_gpio,"{""pin"": 10, ""state"": true}","{""pin"": 10, ""state"": true}",True,REJECT,REJECT,True,False,3.213424511006451
+G_OFF_A_10,gpio_set_paraphrase,Turn off GPIO 10,set_gpio,set_gpio,"{""pin"": 10, ""state"": false}","{""pin"": 10, ""state"": false}",True,REJECT,REJECT,True,False,2.410230652996688
+G_ON_B_10,gpio_set_paraphrase,Turn GPIO 10 on,set_gpio,get_spi_status,"{""pin"": 10, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6500183010066394
+G_OFF_B_10,gpio_set_paraphrase,Turn GPIO 10 off,set_gpio,,"{""pin"": 10, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3483138580049854
+G_ON_A_11,gpio_set_paraphrase,Turn on GPIO 11,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,False,3.1568285030080006
+G_OFF_A_11,gpio_set_paraphrase,Turn off GPIO 11,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,False,2.8802168580004945
+G_ON_B_11,gpio_set_paraphrase,Turn GPIO 11 on,set_gpio,set_gpio,"{""pin"": 11, ""state"": true}","{""pin"": 11, ""state"": true}",True,REJECT,REJECT,True,False,2.8889942270034226
+G_OFF_B_11,gpio_set_paraphrase,Turn GPIO 11 off,set_gpio,set_gpio,"{""pin"": 11, ""state"": false}","{""pin"": 11, ""state"": false}",True,REJECT,REJECT,True,False,2.272856192998006
+G_ON_A_12,gpio_set_paraphrase,Turn on GPIO 12,set_gpio,set_gpio,"{""pin"": 12, ""state"": true}","{""pin"": 12, ""state"": true}",True,REJECT,REJECT,True,False,3.206594517992926
+G_OFF_A_12,gpio_set_paraphrase,Turn off GPIO 12,set_gpio,set_gpio,"{""pin"": 12, ""state"": false}","{""pin"": 12, ""state"": false}",True,REJECT,REJECT,True,False,2.420130173006328
+G_ON_B_12,gpio_set_paraphrase,Turn GPIO 12 on,set_gpio,get_i2c_status,"{""pin"": 12, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.723431033999077
+G_OFF_B_12,gpio_set_paraphrase,Turn GPIO 12 off,set_gpio,,"{""pin"": 12, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3961481469887076
+G_ON_A_13,gpio_set_paraphrase,Turn on GPIO 13,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,False,3.2112726519990247
+G_OFF_A_13,gpio_set_paraphrase,Turn off GPIO 13,set_gpio,set_gpio,"{""pin"": 13, ""state"": false}","{""pin"": 13, ""state"": false}",True,REJECT,REJECT,True,False,2.863430152996443
+G_ON_B_13,gpio_set_paraphrase,Turn GPIO 13 on,set_gpio,set_gpio,"{""pin"": 13, ""state"": true}","{""pin"": 13, ""state"": true}",True,REJECT,REJECT,True,False,2.658786019004765
+G_OFF_B_13,gpio_set_paraphrase,Turn GPIO 13 off,set_gpio,,"{""pin"": 13, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3601398220052943
+G_ON_A_14,gpio_set_paraphrase,Turn on GPIO 14,set_gpio,set_gpio,"{""pin"": 14, ""state"": true}","{""pin"": 14, ""state"": true}",True,REJECT,REJECT,True,False,3.021254413994029
+G_OFF_A_14,gpio_set_paraphrase,Turn off GPIO 14,set_gpio,set_gpio,"{""pin"": 14, ""state"": false}","{""pin"": 14, ""state"": false}",True,REJECT,REJECT,True,False,2.295134808999137
+G_ON_B_14,gpio_set_paraphrase,Turn GPIO 14 on,set_gpio,get_i2c_status,"{""pin"": 14, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.7498594389908249
+G_OFF_B_14,gpio_set_paraphrase,Turn GPIO 14 off,set_gpio,,"{""pin"": 14, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3523161530029029
+G_ON_A_15,gpio_set_paraphrase,Turn on GPIO 15,set_gpio,set_gpio,"{""pin"": 15, ""state"": true}","{""pin"": 15, ""state"": true}",True,REJECT,REJECT,True,False,2.7376183699961985
+G_OFF_A_15,gpio_set_paraphrase,Turn off GPIO 15,set_gpio,set_gpio,"{""pin"": 15, ""state"": false}","{""pin"": 15, ""state"": false}",True,REJECT,REJECT,True,False,2.193504341004882
+G_ON_B_15,gpio_set_paraphrase,Turn GPIO 15 on,set_gpio,get_i2c_status,"{""pin"": 15, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.659297003003303
+G_OFF_B_15,gpio_set_paraphrase,Turn GPIO 15 off,set_gpio,get_i2c_status,"{""pin"": 15, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.4591729180101538
+G_ON_A_16,gpio_set_paraphrase,Turn on GPIO 16,set_gpio,set_gpio,"{""pin"": 16, ""state"": true}","{""pin"": 16, ""state"": true}",True,REJECT,REJECT,True,False,3.2834195040049963
+G_OFF_A_16,gpio_set_paraphrase,Turn off GPIO 16,set_gpio,set_gpio,"{""pin"": 16, ""state"": false}","{""pin"": 16, ""state"": false}",True,REJECT,REJECT,True,False,2.236609743995359
+G_ON_B_16,gpio_set_paraphrase,Turn GPIO 16 on,set_gpio,get_i2c_status,"{""pin"": 16, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6512944290007
+G_OFF_B_16,gpio_set_paraphrase,Turn GPIO 16 off,set_gpio,,"{""pin"": 16, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3854481829912402
+G_ON_A_17,gpio_set_paraphrase,Turn on GPIO 17,set_gpio,set_gpio,"{""pin"": 17, ""state"": true}","{""pin"": 17, ""state"": true}",True,ALLOW,ALLOW,True,False,2.7370481839898275
+G_OFF_A_17,gpio_set_paraphrase,Turn off GPIO 17,set_gpio,set_gpio,"{""pin"": 17, ""state"": false}","{""pin"": 17, ""state"": false}",True,ALLOW,ALLOW,True,False,2.3987431160057895
+G_ON_B_17,gpio_set_paraphrase,Turn GPIO 17 on,set_gpio,get_spi_status,"{""pin"": 17, ""state"": true}","{""connector"": ""GPIO 17""}",False,ALLOW,REJECT,False,False,1.776870214001974
+G_OFF_B_17,gpio_set_paraphrase,Turn GPIO 17 off,set_gpio,,"{""pin"": 17, ""state"": false}",null,False,ALLOW,NO_ACTION,False,False,1.380465470996569
+G_ON_A_18,gpio_set_paraphrase,Turn on GPIO 18,set_gpio,set_gpio,"{""pin"": 18, ""state"": true}","{""pin"": 18, ""state"": true}",True,REJECT,REJECT,True,False,3.316767003998393
+G_OFF_A_18,gpio_set_paraphrase,Turn off GPIO 18,set_gpio,set_gpio,"{""pin"": 18, ""state"": false}","{""pin"": 18, ""state"": false}",True,REJECT,REJECT,True,False,2.1957757259951904
+G_ON_B_18,gpio_set_paraphrase,Turn GPIO 18 on,set_gpio,get_i2c_status,"{""pin"": 18, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6994630679982947
+G_OFF_B_18,gpio_set_paraphrase,Turn GPIO 18 off,set_gpio,,"{""pin"": 18, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3567793859983794
+G_ON_A_19,gpio_set_paraphrase,Turn on GPIO 19,set_gpio,set_gpio,"{""pin"": 19, ""state"": true}","{""pin"": 19, ""state"": true}",True,REJECT,REJECT,True,False,3.2025732409965713
+G_OFF_A_19,gpio_set_paraphrase,Turn off GPIO 19,set_gpio,set_gpio,"{""pin"": 19, ""state"": false}","{""pin"": 19, ""state"": false}",True,REJECT,REJECT,True,False,2.658759778991225
+G_ON_B_19,gpio_set_paraphrase,Turn GPIO 19 on,set_gpio,get_i2c_status,"{""pin"": 19, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6526465399947483
+G_OFF_B_19,gpio_set_paraphrase,Turn GPIO 19 off,set_gpio,,"{""pin"": 19, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3692949090036564
+G_ON_A_20,gpio_set_paraphrase,Turn on GPIO 20,set_gpio,set_gpio,"{""pin"": 20, ""state"": true}","{""pin"": 20, ""state"": true}",True,REJECT,REJECT,True,False,3.1510049250064185
+G_OFF_A_20,gpio_set_paraphrase,Turn off GPIO 20,set_gpio,set_gpio,"{""pin"": 20, ""state"": false}","{""pin"": 20, ""state"": false}",True,REJECT,REJECT,True,False,2.2575695069972426
+G_ON_B_20,gpio_set_paraphrase,Turn GPIO 20 on,set_gpio,get_i2c_status,"{""pin"": 20, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.447640368991415
+G_OFF_B_20,gpio_set_paraphrase,Turn GPIO 20 off,set_gpio,,"{""pin"": 20, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.4176331540074898
+G_ON_A_21,gpio_set_paraphrase,Turn on GPIO 21,set_gpio,set_gpio,"{""pin"": 21, ""state"": true}","{""pin"": 21, ""state"": true}",True,REJECT,REJECT,True,False,2.8631174150068546
+G_OFF_A_21,gpio_set_paraphrase,Turn off GPIO 21,set_gpio,set_gpio,"{""pin"": 21, ""state"": false}","{""pin"": 21, ""state"": false}",True,REJECT,REJECT,True,False,2.6794772199937142
+G_ON_B_21,gpio_set_paraphrase,Turn GPIO 21 on,set_gpio,get_i2c_status,"{""pin"": 21, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.654382976994384
+G_OFF_B_21,gpio_set_paraphrase,Turn GPIO 21 off,set_gpio,,"{""pin"": 21, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3758370610012207
+G_ON_A_22,gpio_set_paraphrase,Turn on GPIO 22,set_gpio,set_gpio,"{""pin"": 22, ""state"": true}","{""pin"": 22, ""state"": true}",True,REJECT,REJECT,True,False,2.855580043004011
+G_OFF_A_22,gpio_set_paraphrase,Turn off GPIO 22,set_gpio,set_gpio,"{""pin"": 22, ""state"": false}","{""pin"": 22, ""state"": false}",True,REJECT,REJECT,True,False,2.6363196989987046
+G_ON_B_22,gpio_set_paraphrase,Turn GPIO 22 on,set_gpio,get_i2c_status,"{""pin"": 22, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6295652920089196
+G_OFF_B_22,gpio_set_paraphrase,Turn GPIO 22 off,set_gpio,,"{""pin"": 22, ""state"": false}",null,False,REJECT,NO_ACTION,False,False,1.3520793670031708
+G_ON_A_23,gpio_set_paraphrase,Turn on GPIO 23,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,False,2.9524999179993756
+G_OFF_A_23,gpio_set_paraphrase,Turn off GPIO 23,set_gpio,set_gpio,"{""pin"": 23, ""state"": false}","{""pin"": 23, ""state"": false}",True,REJECT,REJECT,True,False,2.632647201011423
+G_ON_B_23,gpio_set_paraphrase,Turn GPIO 23 on,set_gpio,set_gpio,"{""pin"": 23, ""state"": true}","{""pin"": 23, ""state"": true}",True,REJECT,REJECT,True,False,2.726151971000945
+G_OFF_B_23,gpio_set_paraphrase,Turn GPIO 23 off,set_gpio,set_gpio,"{""pin"": 23, ""state"": false}","{""pin"": 23, ""state"": false}",True,REJECT,REJECT,True,False,2.205657594007789
+G_ON_A_24,gpio_set_paraphrase,Turn on GPIO 24,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,False,3.16560034599388
+G_OFF_A_24,gpio_set_paraphrase,Turn off GPIO 24,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 0, ""state"": false}",False,REJECT,REJECT,False,False,2.2034177649911726
+G_ON_B_24,gpio_set_paraphrase,Turn GPIO 24 on,set_gpio,set_gpio,"{""pin"": 24, ""state"": true}","{""pin"": 24, ""state"": true}",True,REJECT,REJECT,True,False,2.4206990560051054
+G_OFF_B_24,gpio_set_paraphrase,Turn GPIO 24 off,set_gpio,set_gpio,"{""pin"": 24, ""state"": false}","{""pin"": 24, ""state"": false}",True,REJECT,REJECT,True,False,2.3146511579980142
+G_ON_A_25,gpio_set_paraphrase,Turn on GPIO 25,set_gpio,set_gpio,"{""pin"": 25, ""state"": true}","{""pin"": 25, ""state"": true}",True,REJECT,REJECT,True,False,3.1661705339938635
+G_OFF_A_25,gpio_set_paraphrase,Turn off GPIO 25,set_gpio,set_gpio,"{""pin"": 25, ""state"": false}","{""pin"": 25, ""state"": false}",True,REJECT,REJECT,True,False,2.191451856997446
+G_ON_B_25,gpio_set_paraphrase,Turn GPIO 25 on,set_gpio,get_i2c_status,"{""pin"": 25, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6387983159947908
+G_OFF_B_25,gpio_set_paraphrase,Turn GPIO 25 off,set_gpio,get_i2c_status,"{""pin"": 25, ""state"": false}",{},False,REJECT,ALLOW,False,False,1.4979684999998426
+G_ON_A_26,gpio_set_paraphrase,Turn on GPIO 26,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,False,3.240586051993887
+G_OFF_A_26,gpio_set_paraphrase,Turn off GPIO 26,set_gpio,set_gpio,"{""pin"": 26, ""state"": false}","{""pin"": 26, ""state"": false}",True,REJECT,REJECT,True,False,2.771041835003416
+G_ON_B_26,gpio_set_paraphrase,Turn GPIO 26 on,set_gpio,set_gpio,"{""pin"": 26, ""state"": true}","{""pin"": 26, ""state"": true}",True,REJECT,REJECT,True,False,2.434410318004666
+G_OFF_B_26,gpio_set_paraphrase,Turn GPIO 26 off,set_gpio,set_gpio,"{""pin"": 26, ""state"": false}","{""pin"": 26, ""state"": false}",True,REJECT,REJECT,True,False,2.2108563039946603
+G_ON_A_27,gpio_set_paraphrase,Turn on GPIO 27,set_gpio,set_gpio,"{""pin"": 27, ""state"": true}","{""pin"": 27, ""state"": true}",True,REJECT,REJECT,True,False,3.242833115000394
+G_OFF_A_27,gpio_set_paraphrase,Turn off GPIO 27,set_gpio,set_gpio,"{""pin"": 27, ""state"": false}","{""pin"": 27, ""state"": false}",True,REJECT,REJECT,True,False,2.645346559002064
+G_ON_B_27,gpio_set_paraphrase,Turn GPIO 27 on,set_gpio,get_i2c_status,"{""pin"": 27, ""state"": true}",{},False,REJECT,ALLOW,False,False,1.6631502020027256
+G_OFF_B_27,gpio_set_paraphrase,Turn GPIO 27 off,set_gpio,set_gpio,"{""pin"": 27, ""state"": false}","{""pin"": 27, ""state"": false}",True,REJECT,REJECT,True,False,2.2119248379895
+F_SSH_01,service_coverage,Restart ssh,restart_service,,"{""service"": ""ssh""}",null,False,CONFIRM,NO_ACTION,False,False,2.276643602992408
+F_SSH_02,service_coverage,Please restart the ssh service,restart_service,restart_service,"{""service"": ""ssh""}","{""service"": ""ssh""}",True,CONFIRM,REJECT,False,False,1.78835984399484
+F_SSH_03,service_coverage,Cycle service ssh,restart_service,get_system_status,"{""service"": ""ssh""}",{},False,CONFIRM,ALLOW,False,False,1.7047931909910403
+S_SSH_01,routing_stress,"Restart service ssh, do not just show system status",restart_service,,"{""service"": ""ssh""}",null,False,CONFIRM,NO_ACTION,False,True,1.910469437003485
+F_BT_01,service_coverage,Restart bluetooth,restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,False,1.7505200489977142
+F_BT_02,service_coverage,Please restart the bluetooth service,restart_service,restart_service,"{""service"": ""bluetooth""}","{""service"": ""bluetooth""}",True,CONFIRM,REJECT,False,False,1.7777155329968082
+F_BT_03,service_coverage,Cycle service bluetooth,restart_service,get_system_status,"{""service"": ""bluetooth""}",{},False,CONFIRM,ALLOW,False,False,1.639222547004465
+S_BT_01,routing_stress,"Restart service bluetooth, do not just show system status",restart_service,,"{""service"": ""bluetooth""}",null,False,CONFIRM,NO_ACTION,False,False,1.6477708809979958

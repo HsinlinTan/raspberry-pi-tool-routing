@@ -1,0 +1,119 @@
+[
+  {
+    "filename": "needle2_base.cact",
+    "role": "base",
+    "cases": 320,
+    "routing_exact_pct_320": 47.5,
+    "task_exact_pct_320": 46.25,
+    "median_latency_s_320": 2.2212403234952944,
+    "p95_latency_s_320": 3.065426365297025
+  },
+  {
+    "filename": "needle_rpi_2048_v6_ep7.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 49.6875,
+    "task_exact_pct_320": 49.0625,
+    "median_latency_s_320": 1.6447916000033729,
+    "p95_latency_s_320": 2.940991194461822
+  },
+  {
+    "filename": "needle_rpi_ft07_lr5e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 65.3125,
+    "task_exact_pct_320": 64.375,
+    "median_latency_s_320": 2.079239045495342,
+    "p95_latency_s_320": 3.209327726049378
+  },
+  {
+    "filename": "needle_rpi_ft08_ep3.cact",
+    "role": "best_finetune_320",
+    "cases": 320,
+    "routing_exact_pct_320": 67.8125,
+    "task_exact_pct_320": 67.1875,
+    "median_latency_s_320": 2.198638038506033,
+    "p95_latency_s_320": 3.243035454039637
+  },
+  {
+    "filename": "needle_rpi_ft09_rank8_alpha16.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 55.0,
+    "task_exact_pct_320": 54.0625,
+    "median_latency_s_320": 1.8563174924929624,
+    "p95_latency_s_320": 3.1327507645983133
+  },
+  {
+    "filename": "needle_rpi_ft10_rank32_alpha64.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 38.4375,
+    "task_exact_pct_320": 37.5,
+    "median_latency_s_320": 1.6981414389956626,
+    "p95_latency_s_320": 3.2255350229439568
+  },
+  {
+    "filename": "needle_rpi_ft11_lr6e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 66.25,
+    "task_exact_pct_320": 65.0,
+    "median_latency_s_320": 2.0567882359973737,
+    "p95_latency_s_320": 3.20537098690329
+  },
+  {
+    "filename": "needle_rpi_ft11_lr7.5e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 63.125,
+    "task_exact_pct_320": 62.1875,
+    "median_latency_s_320": 2.02330349550175,
+    "p95_latency_s_320": 3.223711281103897
+  },
+  {
+    "filename": "needle_rpi_ft11_lr7e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 62.5,
+    "task_exact_pct_320": 61.875,
+    "median_latency_s_320": 2.039245352505532,
+    "p95_latency_s_320": 3.260431008062733
+  },
+  {
+    "filename": "needle_rpi_ft11_lr8e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 57.1875,
+    "task_exact_pct_320": 55.9375,
+    "median_latency_s_320": 1.918409990001237,
+    "p95_latency_s_320": 3.2092421331566583
+  },
+  {
+    "filename": "needle_rpi_ft11_lr9e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 58.75,
+    "task_exact_pct_320": 57.8125,
+    "median_latency_s_320": 1.8880135275030625,
+    "p95_latency_s_320": 3.1572670951572945
+  },
+  {
+    "filename": "needle_rpi_ft12_lr8p5e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 54.375,
+    "task_exact_pct_320": 53.4375,
+    "median_latency_s_320": 1.838733200500428,
+    "p95_latency_s_320": 3.176724086005561
+  },
+  {
+    "filename": "needle_rpi_ft12_lr9p5e5.cact",
+    "role": "finetune_candidate",
+    "cases": 320,
+    "routing_exact_pct_320": 60.0,
+    "task_exact_pct_320": 59.0625,
+    "median_latency_s_320": 1.8572815295046892,
+    "p95_latency_s_320": 3.1594570551540526
+  }
+]
