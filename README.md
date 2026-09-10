@@ -581,3 +581,15 @@ restarts should only run when execution is explicitly requested.
 7. Compare routing exact accuracy and Raspberry Pi efficiency.
 ```
 
+# 10. Needle Fine-tune model
+
+The best fine-tuned Needle model used in the final benchmark is available from
+the project's GitHub Releases:
+
+- `needle_rpi_ft08_ep3.cact` — deployable Raspberry Pi model
+- `needle_rpi_ft08_ep3.pkl` — optional training checkpoint
+
+Download the `.cact` file and place it in:
+
+```text
+models/needle/
